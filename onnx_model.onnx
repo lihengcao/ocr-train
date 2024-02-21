@@ -1,0 +1,681 @@
+pytorch2.2.0:Ìﬂ
+Ã,
+input.1
+sequential.0.weight
+sequential.0.bias&/sequential/sequential.0/Conv_output_0/sequential/sequential.0/Conv"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2Ì*/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/conv.py(456): _conv_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/conv.py(460): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/container.py(217): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/tmp/ipykernel_37465/3159478739.py(27): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(129): wrapper
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(138): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(1296): _get_trace_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1613): _export
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(516): export
+/tmp/ipykernel_37465/1155044820.py(4): <module>
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3553): run_code
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3493): run_ast_nodes
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3311): run_cell_async
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/async_helpers.py(129): _pseudo_sync_runner
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3106): _run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3051): run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/zmqshell.py(549): run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/ipkernel.py(446): do_execute
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(775): execute_request
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/ipkernel.py(359): execute_request
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(437): dispatch_shell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(531): process_one
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(542): dispatch_queue
+/usr/lib/python3.10/asyncio/events.py(80): _run
+/usr/lib/python3.10/asyncio/base_events.py(1909): _run_once
+/usr/lib/python3.10/asyncio/base_events.py(603): run_forever
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/tornado/platform/asyncio.py(205): start
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelapp.py(739): start
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/traitlets/config/application.py(1075): launch_instance
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel_launcher.py(18): <module>
+/usr/lib/python3.10/runpy.py(86): _run_code
+/usr/lib/python3.10/runpy.py(196): _run_module_as_main
+
+·+
+&/sequential/sequential.0/Conv_output_0&/sequential/sequential.1/Relu_output_0/sequential/sequential.1/Relu"Relu2È*/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/functional.py(1473): relu
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/activation.py(101): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/container.py(217): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/tmp/ipykernel_37465/3159478739.py(27): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(129): wrapper
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(138): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(1296): _get_trace_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1613): _export
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(516): export
+/tmp/ipykernel_37465/1155044820.py(4): <module>
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3553): run_code
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3493): run_ast_nodes
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3311): run_cell_async
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/async_helpers.py(129): _pseudo_sync_runner
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3106): _run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3051): run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/zmqshell.py(549): run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/ipkernel.py(446): do_execute
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(775): execute_request
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/ipkernel.py(359): execute_request
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(437): dispatch_shell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(531): process_one
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(542): dispatch_queue
+/usr/lib/python3.10/asyncio/events.py(80): _run
+/usr/lib/python3.10/asyncio/base_events.py(1909): _run_once
+/usr/lib/python3.10/asyncio/base_events.py(603): run_forever
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/tornado/platform/asyncio.py(205): start
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelapp.py(739): start
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/traitlets/config/application.py(1075): launch_instance
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel_launcher.py(18): <module>
+/usr/lib/python3.10/runpy.py(86): _run_code
+/usr/lib/python3.10/runpy.py(196): _run_module_as_main
+
+™-
+&/sequential/sequential.1/Relu_output_0
+sequential.2.weight
+sequential.2.bias
+sequential.2.running_mean
+sequential.2.running_var4/sequential/sequential.2/BatchNormalization_output_0+/sequential/sequential.2/BatchNormalization"BatchNormalization*
+epsilon¨≈'7†*
+momentumfff?†*
+training_mode †2Ó*/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/functional.py(2482): batch_norm
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/batchnorm.py(175): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/container.py(217): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/tmp/ipykernel_37465/3159478739.py(27): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(129): wrapper
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(138): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(1296): _get_trace_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1613): _export
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(516): export
+/tmp/ipykernel_37465/1155044820.py(4): <module>
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3553): run_code
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3493): run_ast_nodes
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3311): run_cell_async
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/async_helpers.py(129): _pseudo_sync_runner
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3106): _run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3051): run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/zmqshell.py(549): run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/ipkernel.py(446): do_execute
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(775): execute_request
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/ipkernel.py(359): execute_request
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(437): dispatch_shell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(531): process_one
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(542): dispatch_queue
+/usr/lib/python3.10/asyncio/events.py(80): _run
+/usr/lib/python3.10/asyncio/base_events.py(1909): _run_once
+/usr/lib/python3.10/asyncio/base_events.py(603): run_forever
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/tornado/platform/asyncio.py(205): start
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelapp.py(739): start
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/traitlets/config/application.py(1075): launch_instance
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel_launcher.py(18): <module>
+/usr/lib/python3.10/runpy.py(86): _run_code
+/usr/lib/python3.10/runpy.py(196): _run_module_as_main
+
+”-
+4/sequential/sequential.2/BatchNormalization_output_0)/sequential/sequential.3/MaxPool_output_0 /sequential/sequential.3/MaxPool"MaxPool*
+	ceil_mode †*
+	dilations@@†*
+kernel_shape@@†*
+pads@ @ @ @ †*
+strides@@†2‚+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/functional.py(796): _max_pool2d
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/_jit_internal.py(499): fn
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/pooling.py(164): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/container.py(217): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/tmp/ipykernel_37465/3159478739.py(27): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(129): wrapper
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(138): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(1296): _get_trace_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1613): _export
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(516): export
+/tmp/ipykernel_37465/1155044820.py(4): <module>
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3553): run_code
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3493): run_ast_nodes
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3311): run_cell_async
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/async_helpers.py(129): _pseudo_sync_runner
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3106): _run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3051): run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/zmqshell.py(549): run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/ipkernel.py(446): do_execute
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(775): execute_request
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/ipkernel.py(359): execute_request
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(437): dispatch_shell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(531): process_one
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(542): dispatch_queue
+/usr/lib/python3.10/asyncio/events.py(80): _run
+/usr/lib/python3.10/asyncio/base_events.py(1909): _run_once
+/usr/lib/python3.10/asyncio/base_events.py(603): run_forever
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/tornado/platform/asyncio.py(205): start
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelapp.py(739): start
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/traitlets/config/application.py(1075): launch_instance
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel_launcher.py(18): <module>
+/usr/lib/python3.10/runpy.py(86): _run_code
+/usr/lib/python3.10/runpy.py(196): _run_module_as_main
+
+Ó,
+)/sequential/sequential.3/MaxPool_output_0
+sequential.4.weight
+sequential.4.bias&/sequential/sequential.4/Conv_output_0/sequential/sequential.4/Conv"Conv*
+	dilations@@†*
+group†*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†2Ì*/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/conv.py(456): _conv_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/conv.py(460): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/container.py(217): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/tmp/ipykernel_37465/3159478739.py(27): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(129): wrapper
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(138): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(1296): _get_trace_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1613): _export
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(516): export
+/tmp/ipykernel_37465/1155044820.py(4): <module>
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3553): run_code
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3493): run_ast_nodes
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3311): run_cell_async
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/async_helpers.py(129): _pseudo_sync_runner
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3106): _run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3051): run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/zmqshell.py(549): run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/ipkernel.py(446): do_execute
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(775): execute_request
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/ipkernel.py(359): execute_request
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(437): dispatch_shell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(531): process_one
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(542): dispatch_queue
+/usr/lib/python3.10/asyncio/events.py(80): _run
+/usr/lib/python3.10/asyncio/base_events.py(1909): _run_once
+/usr/lib/python3.10/asyncio/base_events.py(603): run_forever
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/tornado/platform/asyncio.py(205): start
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelapp.py(739): start
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/traitlets/config/application.py(1075): launch_instance
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel_launcher.py(18): <module>
+/usr/lib/python3.10/runpy.py(86): _run_code
+/usr/lib/python3.10/runpy.py(196): _run_module_as_main
+
+·+
+&/sequential/sequential.4/Conv_output_0&/sequential/sequential.5/Relu_output_0/sequential/sequential.5/Relu"Relu2È*/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/functional.py(1473): relu
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/activation.py(101): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/container.py(217): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/tmp/ipykernel_37465/3159478739.py(27): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(129): wrapper
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(138): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(1296): _get_trace_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1613): _export
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(516): export
+/tmp/ipykernel_37465/1155044820.py(4): <module>
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3553): run_code
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3493): run_ast_nodes
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3311): run_cell_async
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/async_helpers.py(129): _pseudo_sync_runner
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3106): _run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3051): run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/zmqshell.py(549): run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/ipkernel.py(446): do_execute
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(775): execute_request
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/ipkernel.py(359): execute_request
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(437): dispatch_shell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(531): process_one
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(542): dispatch_queue
+/usr/lib/python3.10/asyncio/events.py(80): _run
+/usr/lib/python3.10/asyncio/base_events.py(1909): _run_once
+/usr/lib/python3.10/asyncio/base_events.py(603): run_forever
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/tornado/platform/asyncio.py(205): start
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelapp.py(739): start
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/traitlets/config/application.py(1075): launch_instance
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel_launcher.py(18): <module>
+/usr/lib/python3.10/runpy.py(86): _run_code
+/usr/lib/python3.10/runpy.py(196): _run_module_as_main
+
+™-
+&/sequential/sequential.5/Relu_output_0
+sequential.6.weight
+sequential.6.bias
+sequential.6.running_mean
+sequential.6.running_var4/sequential/sequential.6/BatchNormalization_output_0+/sequential/sequential.6/BatchNormalization"BatchNormalization*
+epsilon¨≈'7†*
+momentumfff?†*
+training_mode †2Ó*/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/functional.py(2482): batch_norm
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/batchnorm.py(175): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/container.py(217): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/tmp/ipykernel_37465/3159478739.py(27): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(129): wrapper
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(138): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(1296): _get_trace_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1613): _export
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(516): export
+/tmp/ipykernel_37465/1155044820.py(4): <module>
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3553): run_code
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3493): run_ast_nodes
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3311): run_cell_async
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/async_helpers.py(129): _pseudo_sync_runner
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3106): _run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3051): run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/zmqshell.py(549): run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/ipkernel.py(446): do_execute
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(775): execute_request
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/ipkernel.py(359): execute_request
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(437): dispatch_shell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(531): process_one
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(542): dispatch_queue
+/usr/lib/python3.10/asyncio/events.py(80): _run
+/usr/lib/python3.10/asyncio/base_events.py(1909): _run_once
+/usr/lib/python3.10/asyncio/base_events.py(603): run_forever
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/tornado/platform/asyncio.py(205): start
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelapp.py(739): start
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/traitlets/config/application.py(1075): launch_instance
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel_launcher.py(18): <module>
+/usr/lib/python3.10/runpy.py(86): _run_code
+/usr/lib/python3.10/runpy.py(196): _run_module_as_main
+
+”-
+4/sequential/sequential.6/BatchNormalization_output_0)/sequential/sequential.7/MaxPool_output_0 /sequential/sequential.7/MaxPool"MaxPool*
+	ceil_mode †*
+	dilations@@†*
+kernel_shape@@†*
+pads@ @ @ @ †*
+strides@@†2‚+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/functional.py(796): _max_pool2d
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/_jit_internal.py(499): fn
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/pooling.py(164): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/container.py(217): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/tmp/ipykernel_37465/3159478739.py(27): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(129): wrapper
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(138): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(1296): _get_trace_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1613): _export
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(516): export
+/tmp/ipykernel_37465/1155044820.py(4): <module>
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3553): run_code
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3493): run_ast_nodes
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3311): run_cell_async
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/async_helpers.py(129): _pseudo_sync_runner
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3106): _run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3051): run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/zmqshell.py(549): run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/ipkernel.py(446): do_execute
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(775): execute_request
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/ipkernel.py(359): execute_request
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(437): dispatch_shell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(531): process_one
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(542): dispatch_queue
+/usr/lib/python3.10/asyncio/events.py(80): _run
+/usr/lib/python3.10/asyncio/base_events.py(1909): _run_once
+/usr/lib/python3.10/asyncio/base_events.py(603): run_forever
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/tornado/platform/asyncio.py(205): start
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelapp.py(739): start
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/traitlets/config/application.py(1075): launch_instance
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel_launcher.py(18): <module>
+/usr/lib/python3.10/runpy.py(86): _run_code
+/usr/lib/python3.10/runpy.py(196): _run_module_as_main
+
+˝*
+)/sequential/sequential.7/MaxPool_output_0)/sequential/sequential.8/Flatten_output_0 /sequential/sequential.8/Flatten"Flatten*
+axis†2Ï)/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/flatten.py(49): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/container.py(217): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/tmp/ipykernel_37465/3159478739.py(27): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(129): wrapper
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(138): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(1296): _get_trace_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1613): _export
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(516): export
+/tmp/ipykernel_37465/1155044820.py(4): <module>
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3553): run_code
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3493): run_ast_nodes
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3311): run_cell_async
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/async_helpers.py(129): _pseudo_sync_runner
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3106): _run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3051): run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/zmqshell.py(549): run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/ipkernel.py(446): do_execute
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(775): execute_request
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/ipkernel.py(359): execute_request
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(437): dispatch_shell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(531): process_one
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(542): dispatch_queue
+/usr/lib/python3.10/asyncio/events.py(80): _run
+/usr/lib/python3.10/asyncio/base_events.py(1909): _run_once
+/usr/lib/python3.10/asyncio/base_events.py(603): run_forever
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/tornado/platform/asyncio.py(205): start
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelapp.py(739): start
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/traitlets/config/application.py(1075): launch_instance
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel_launcher.py(18): <module>
+/usr/lib/python3.10/runpy.py(86): _run_code
+/usr/lib/python3.10/runpy.py(196): _run_module_as_main
+
+ø+
+)/sequential/sequential.8/Flatten_output_0
+sequential.9.weight
+sequential.9.bias&/sequential/sequential.9/Gemm_output_0/sequential/sequential.9/Gemm"Gemm*
+alpha  Ä?†*
+beta  Ä?†*
+transB†2Ï)/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/linear.py(116): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/container.py(217): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/tmp/ipykernel_37465/3159478739.py(27): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(129): wrapper
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(138): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(1296): _get_trace_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1613): _export
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(516): export
+/tmp/ipykernel_37465/1155044820.py(4): <module>
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3553): run_code
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3493): run_ast_nodes
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3311): run_cell_async
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/async_helpers.py(129): _pseudo_sync_runner
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3106): _run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3051): run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/zmqshell.py(549): run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/ipkernel.py(446): do_execute
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(775): execute_request
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/ipkernel.py(359): execute_request
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(437): dispatch_shell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(531): process_one
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(542): dispatch_queue
+/usr/lib/python3.10/asyncio/events.py(80): _run
+/usr/lib/python3.10/asyncio/base_events.py(1909): _run_once
+/usr/lib/python3.10/asyncio/base_events.py(603): run_forever
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/tornado/platform/asyncio.py(205): start
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelapp.py(739): start
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/traitlets/config/application.py(1075): launch_instance
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel_launcher.py(18): <module>
+/usr/lib/python3.10/runpy.py(86): _run_code
+/usr/lib/python3.10/runpy.py(196): _run_module_as_main
+
+ﬂ+
+&/sequential/sequential.9/Gemm_output_027$/sequential/sequential.10/LogSoftmax"
+LogSoftmax*
+axis†2Ò*/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/functional.py(1947): log_softmax
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/activation.py(1588): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/container.py(217): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/tmp/ipykernel_37465/3159478739.py(27): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1501): _slow_forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(129): wrapper
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(138): forward
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1520): _call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/nn/modules/module.py(1511): _wrapped_call_impl
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/jit/_trace.py(1296): _get_trace_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(915): _trace_and_get_graph_from_model
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1011): _create_jit_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1135): _model_to_graph
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(1613): _export
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/torch/onnx/utils.py(516): export
+/tmp/ipykernel_37465/1155044820.py(4): <module>
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3553): run_code
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3493): run_ast_nodes
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3311): run_cell_async
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/async_helpers.py(129): _pseudo_sync_runner
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3106): _run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/IPython/core/interactiveshell.py(3051): run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/zmqshell.py(549): run_cell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/ipkernel.py(446): do_execute
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(775): execute_request
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/ipkernel.py(359): execute_request
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(437): dispatch_shell
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(531): process_one
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelbase.py(542): dispatch_queue
+/usr/lib/python3.10/asyncio/events.py(80): _run
+/usr/lib/python3.10/asyncio/base_events.py(1909): _run_once
+/usr/lib/python3.10/asyncio/base_events.py(603): run_forever
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/tornado/platform/asyncio.py(205): start
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel/kernelapp.py(739): start
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/traitlets/config/application.py(1075): launch_instance
+/home/liheng/.local/share/virtualenvs/ocr-train-cWreNkmb/lib/python3.10/site-packages/ipykernel_launcher.py(18): <module>
+/usr/lib/python3.10/runpy.py(86): _run_code
+/usr/lib/python3.10/runpy.py(196): _run_module_as_main
+
+main_graph*‚Bsequential.0.weightJ¿Q|ß<lréΩ˜¡ñΩ|ßΩÀçæî˝M<	÷è=¥Oc<™ô=Ω‹°æ…ç÷=4"=’JÂ<YòΩ∫®!æ4U±=¢8Ì;àm±<õôÍºóSæOÍ¬=Ë—Ωå)√Ωsö"æ±ªêΩ^Å¿ªµÉ=YÊ>l·U>éÊ<K‰=Îâ=pHpΩ~©‰ΩÛMæD=o=õµ±Ωg-ÂΩÉó,æ≈µƒ;∞2æ0O!æ∞xöΩ:`ë='Tò>ÇhÂ<©4>_<>ëp=œæ4ö:‘Åë<ñ‡È<à¿<WˆÀ<—ÅΩ∏ïç;Ωkî=µOä;+U=ç%ævø}=#52=í=.Ê!Ωı∆uæ=›û=I2Ø=$≥û=ûk5æ®Ì+æ˘ôPæóOiæcZ2æ|añΩ˘\>3T„<¯G,Ωb:Ω˛˜#>(õ∫ΩM;öÃ.>J+æh¡C>¿3*Ω7J°=˘*Ω§æ>uô¨=ˇ>w^›;P ?=Á„>Ω>@Hf>˘6
+>&¢û=úΩ¥ΩÌæƒÂùΩ˛3A=ÎèΩNoZæœ%ãΩ-|=ólA=95ëΩ√>g<Ω~ræE$ÉΩ÷|L>ääΩQ1æÁ‚\æ=⁄>b¯b>ä7>(:=“@Ω‰9æ<!E>Yot>Î\>‘á=v¥:Ó¥ >v’>ù®Ω°ΩÜÕ<Ø≠%>ˇ ÌΩ3tæºø÷1=j“W>0Óªgï@Ω–k¬Ω…ÃUº*8C>a≈˜<f≤·Ω±KRΩi–(>ã∆öºΩÅæÕ®˛º =h‹ ºvµ˛ΩÄèΩÎΩTÓCæÎ&æÎ[>5âΩœÀ<Œ±~=Œ„Ωñ»=¬PK>L°>et>˝‹=z˙<UΩmG=π»¨=ØiÉ>»o<æÂ∏Ω\∏
+æ∞Aær∏Ω
+∑u>HO.>Ìzò=<¶û=òÄ(>ß#„=+H
+æbv¿=ánA=Âè¨<d	)Ω√]E=Ø¡SΩ@µ—º¢Q>©9=ò§´=∑ﬁ∆=ŸÓ,=0˝=aÇúΩ]…rº‹∑,ºü|¶ΩÉ>r<æ^w^º˝Ç=S1=ì∆ˆΩä‚!Ω›Ó0æß\íæp*æv°ΩüÒŒΩ¨”Ñ=”Ræ¿ç√ºS©tæ8aE<≤˘ëªÿÅ∑<®©(Ωe:*æåﬁ=pÚ~=S∏∆=	…‘<k¢Pæ∂◊ÌΩ”‘ò<Jì=¢8[=d•£=ƒ∞ü="ç=ùî=’œ±=iX7ΩâuO>ﬁv=∑Àb>Óò8>ˇD>Ç¯>ÿˆJ=Ec˛=?5¬º©{=∏ óΩ<û˛<°N==y>ë{÷=∞k¬;0¨>0÷>∫hÒ<Ã(<j¨Ω+§˘<í.>S¿=Õ¯Mæàv–=≤r€<∆Å/=˚€¢ªZ⁄˝Ωô|æÃ÷s>Uªh=ÖÂV<,{OæKk;>9´&<W%=‚%o<´V|æ•¨‡Ωˆ¯†Ω\NæÅ0ûΩ§œΩFæ`æVSßΩ¬vñΩüÜÃΩ?–®Ω\∫Ω÷ú=ﬂÇ˛<CAú<iΩmÌ>é'€<ÅÃM=Ñ?=™!G=ò´Ï<eí=/RÆ=
+ !=ÜYn>=Ä>ºı2<‡s Ωôk8ΩΩ‘2æ-D.;"=>;>ÙOΩP:æc∏ΩÙY>ΩQÎ>Œ>]hΩuzPæΩ’î<åN°<WÀ>4 >TO¿Ω©?ΩeSΩ:Êøº˘W∂=–Õù=qv¬:VØ=ÌçÓ<	Aæ∞w=∑Ø<˘Ge=; n=R:æRëΩ…Aß=1 =Ì =2ÊRæJ{ªΩ Ω„éÁΩ#æW•ËΩ«
+qæqê≤Ω X¨Ω@»ïº‚:1æπ±ñ<È¥K<JÚΩºä={7.>k¥O>[{(æ9zæ}õzº {§=æMC>@Yâ=’;æΩCìΩêg;>/…¶=1ÑºΩÈÂ*æ e¸Ω55>ñ
+õ>{Êö=åº÷Ω¸ız=˙Ë{=‹ÌÅºü1]ædeCΩkfF=+>≤ÔÑæ√1óΩ©≠,>WÙ$<–m™=,∫,æ¬æø=€ö©Ω,ê>ARIªÈabæVVÃºÎ?>°«‹ºÀ˜C=Ny0ΩØ⁄!æ§›ΩOàˆ<smÔΩ*YBsequential.0.biasJ@ñt8Éû’Ωız∫ç π6=´–∫e´>ßhá<’Ú1æuÛ >¶k˙8\ﬂ8‡:
+&°æ¸ë<_˘È9±f˚∏*[Bsequential.2.weightJ@± }?éL?/}?ÒÓÑ?s?â∏Ñ?'Lc?‘Êé?K“}?Kã?Fûá?||?_öG?Ç≤l?T◊u?·Äq?*YBsequential.2.biasJ@ÇGè=G“æ=d¨°∫a›Ω5ﬂÛ=2∞ï=IÕqΩÕlOæ‹w?Mﬁ÷;· ‚Ω
+3]>uÜ>p¿Ï=z'æµ$B>*aBsequential.2.running_meanJ@5¶<G∫Æ<<∫Ñ>©Øµ=ÓTG>8sU=D?>ÉÍä=*µ>Ur˝=6Vi=ˇË;˛@8<ï¯=TgÃ<*`Bsequential.2.running_varJ@Õuv;_`z; Ãâ:,^Â=À»=oæø<axp<@œë=Q£;Êôe>cÂQ=©àç<}8˝:Í‰å:ºË<z¿¥;*£»Bsequential.4.weightJÄ»âgx=Pó=ËN$=ÄE~ª46rª$3L=ùÃˇ;<ÀΩÁ“œ;π¡â=πäœπ&¢(=Â¶T;ææ(=Vkó=Ï√+=öÄº TΩ»∫J<w,<™-¯<´ì@=÷g<—®<±G	=hﬂäºN°ﬂºqÔ¡ºÄ◊;'—Ø;lrÃº≥sºŸV€º‘»9oKÄº†-ºEΩ;fô;¶r˚<‡O§<Í∏ª“2Êªeπ[;EuD=§º®&ÃªåU6ºï.ºŸF7ªVlkΩéQ<7îFªŸ°<±,=>bD<^7∫<¥p,<$«ˆªvº‰aÄ</+%<O–Wª õº<2c=∞“T9Ÿ∑¬ªG!ÙºÄ‡>=@Cî=’Uºj
+ººª¥ªÆDè∫rÌå∫j<´ΩÕm”ºJkUΩÎúΩ.‡ÇºL|¢ºfB·<qå›;î0-=ß„à<T‘÷;f¿=øá|=‹F=∏Å=PDIΩ{‘uΩ∏„âΩèΩíı+Ω!I|<	Ö-<°!¶º¬"öΩÇgpΩD•Ä=Rx•=îs=¿#=¸ÍΩfqâ=4[A=’.√<Ï¢ä=Ø°∫ñ±J=Î$£;˘«ª¢r®π«◊tºmCºº9Ω¬eˇªŸÙÉº;ﬁΩ—ÄfΩø˛;%(VºΩZEºÆ˛	Ω~Óª–
+Z;‡™ö<Ù&ã=[ï=¨v…;ÔQªH`Ò;3÷3;—å/ºR˝?ΩÖ«rºÁÊΩ÷˛0Ω2º®PΩÔáÆº%Ω{ΩÄL£Ω+qºeQ<æk=ŒãPΩ0XΩWMëºIU#<§<’å«<<´Ì<ó`=^V<ú=8ã=u’=~”OªC{õ=Æ6=® =÷¬%=o¨º÷NK;9!=ˇlÿ<’l=ˆ=Ö∆7Ω∑ø˘<›ì∫îüø<i⁄ª◊©©º7G=V—GΩÍå:ää)ΩOk=`4â=v__=ân÷<£îf<AÄ<ƒã=Íî.=å√ÒΩèfΩ6§(Ω“'s=4D<;˜^Ω=™_Ω ıõº≠˙á=¿_Õ<«5ú<îyÏ<J∂ﬂ=y¨<-Q^:i≈<èö=Eì=ç(ô:Å}Áª92˙;~ëGº≈É»=CeÅ;!QSªû÷Ü<ch'=’Â™=-y-= 8~<…@Û<P∫#=T±y=¬ı¨πﬁ•tª0¿ÁºñÆ⁄;*s;∞Æ=WP¨;Ñïñ=è}≥<G√≥=#5Ç=6'∆ºü◊ô<=c›“ªﬂÙ<¡ä<Ï>º&n=s=tÍÌ:˛/áΩ·8∞º ~É<ˆüΩ»≠RΩ´<◊:˚Á‘ªZdUΩØ;º'†R<ÿg™=π"É=ÂÄn=êN?=W>º<wƒ=ª©.v<¡™=F∑çΩ∆'<Êˆº¨%'ª∆aÒ<Ôº≈a5ºQ]·ºê’âΩDgZΩ‹nˇºë_S<lV√ºsFßº¶nÆ;|EÍºÛòΩzk\Ω+A*<C†º™CœªíDΩtUΩ0®mº\PáΩKÆ≥<hú=ÅX =™#4=†&
+=íóΩ÷cS<û¶1=Ää?=â»–=
+sΩ«‰âª-⁄<‘ü<ßIΩ)È:=ã†<=ø)ºÕ€÷º6uºf§U<˚.<±ºæœ´ºâ
+)ΩÔ˛º}⁄/ºÑ0ÍºáùüΩâ€øΩ3Mf<<L"º3ÃºöôëΩ„ãúΩÄüP=û≤1<‡0<ÌôÃª GÛ;E÷<ΩÈZ=ÍT<=RE=∞\°=*™=_%6º9Iµ9]o¥<–ıe=âZ=vãL=(=Í€ =“¸ê=”ôUΩ®’”ºC≤<\G=Ñ⁄Ö=Œ˝ïº’ﬂº3K9<ù&Ÿªıh¯ª5hºﬁâã=Îtù=∂__=¢	ΩíÀô<—#=L'^=˜É¿<ôΩKºﬁX˚ªb…:âár<g‚Ω¸°Ω·`]Ω⁄ßΩ¬BΩΩ˜Ω
+˛BºjäΩŸÆ«ºjÙIºPlÚº£…ºã•;L/©ºÆÂ√<ƒÌ<eæ=úuﬂª|IÙºp‰ï;	ƒÉ;¶ºezΩØbCΩäÒ.Ωa⁄Ωå›àΩÊ∏[<~;Ω©üÅºcÈƒΩ0°{ΩÔ£R;¢S;e&`<FsºÍ/AΩ^iΩOÍEΩ\º˛^º≥?=Ê›ÎºÆ∫é=Õ».=9Gh=ﬂc˚<å˛û<J,∞ªÕûÏ<‘<Ù≠}:S@∫="c‹<™≈≠<Oé@<ÃñúºNÈ±=ıœ4=Iö<p∑<ÇçõΩL«º26ÈºtëKΩ7âwΩ0ÕÎº<Ω$ΩNv<>g<¶ñºÀ™…ªva∂ª√dòº ?º›U0=,·=mìà<ñW˘∫∂nƒªº#Â<–Î <≥öuº‰áZª±ÄªÛ\ª
+ŒŸ;›?;2`ÅºäµãΩî)Ω¶Œ=xs=tºõ<Ê©:=Ãå√<à=√êT=jÏZ<9-1Ω~=|,É=]≥%=Iº
+º
+‘òΩ£Hû=µc‹<∞-º[d•ºlÈºPÊ
+Ω.ÓV;ﬂÒ<XMÅΩílΩ[∞º≥r:<ûQñº„k9Ω%!˙::%Î;À·õª2Ënº~Mcº∫Ôåº\Æ <öJã= ¿—<Tr6πÆöaΩÂkrπ'◊“º„C¶<M<Øº∫BΩ#ûÄΩäèΩóô;‰Òp<ßª∞ä&=›≥=%W2;kÄΩæèÃªd˘‚<Å®ºbêhº5:Nºõ¶ ΩyënΩ/Ñ®Ω?êΩoàªÛd?<ÓØ´Ω˛RîºÓ‡∆ªâzÖªöh!=óêH<È8&;/q@Ω8wΩ°W<A∞úΩœ´_ΩÆ+Ω˜yÄº	Ò;!ÿΩDƒôº§°@ªrò!Ωå0ÌºÈ¢Ω
+ º¿_ª^ñµºÔ8ºR:2Ωó©MΩ?ΩRº©º6ªÛB<ÜsTΩEjgΩêÄ•ºbïkΩ°~Ù<2=f8æ<ïºÖ=ºπw<Ä8ö<ÿ	à<ê0∏<ÜéÌªovºCSºÂõTº!Â◊ª*0ªc•º<[3º<y(;¢—Ä:m€}=bjnªÑ¬º∑Ä6Ωò(qºõc~=L~›ºÀc÷<¶ı∑∫Ö	i<‹ù"=ô¢c:Y<<∏=@r<áÿa=ùHΩXöbΩ«Z*Ωòâ˜º—.)=y5ÃΩ;çπº=©IΩy–ºê‹ı;ˇ–Ωù
+æj∏Ω™^ÀΩö¿´Ωwô <˝‡ã=ç
+t;6≥ªÙﬂõ<ng’ºãeç;l
+]=\¬Û<≥É<I]ºò_M∫√Ø;◊Cm<UÁA=Óq=u–=“ö=¶«7=êÊy<)È<{íπ; Ñ`ªyëΩz€„º{•Êº›ÓE=î˙5=˛=Yˆ†<UI®ºz0d<Kh=ón =ÇÖ7=Ñu<:õâ=J√u=’˙ºxÚ˘ºXU/=Sªï=ß⁄°=º’‚Ωº!—<¬º”ÑmΩç§LΩ◊‹ªº`cΩ≥™⁄ºª:<æ’6=GCõ=
+ëâ<∆†;ú˜fªsK+=)u®=n-I:µ~z<ù0–<¸Ùe<{¶R=“5Øºtı§<!OΩ;P0Ò<∑:ºﬁì†Ω4Ω’ßë<v]ﬂºÈ›bΩ’€ë<sˇÌªö›ß<ÔJ§ºÙÈ<Ω£o’ºÇﬁ;»˘9l-&Ω–ºå©\<+ëK=˙ïÇ=å>á<È¶≤ºB¨=&a=¶í|=ô¿<áÜB=~bçªPJìºAáΩöGÂ;·ò…<±eΩ—ÖºHhı;®†˘<Ω¯ã<$%Ωı“qΩ+€“:ú;ßÅ(;oü”Ω=åjΩ1bÿº›ÿÅºπ9–;Æç æ/iõΩBÛgªÎº ¸Ωr~=g°àºπ/ΩxGπºµ„ãΩÍ£=Ω\O=ìD3ºU‹º;ÛΩVñ:<ÊÍP=ßE<yﬁ´º5éΩ_}â=XT=;¿º9Ybºfë
+ΩéÁ=#Ø<óï<dsõ∫Ec;O;0ºl‰◊<¢;r(Çªt¿$ΩR˙JΩ~nº¢œ;l+^ºÕ◊õºR|ΩÇzÉΩ∂ùcΩ3DQΩù•.ºh¥[ΩØ	IΩ©Ú0Ωâ—J;Ó•<ÔªXΩH´èº Òó:·Œ÷< q=´yΩÃô™Ω“2KΩE¨¥ºù$◊<‘ï´º¢Û;Ω<"Ω,;æ+=ΩY(<D‘Å<Œc=‹.="∆<ÿ†é<È‰R<ñ?	=>5=|‡=≥¶˙<ï+—<ßg<ÓsE<çºSÍ≤ºFÕΩ	W`Ωˇsº˜ö=öú∫îß/ΩÆ∞Áº~=$Æ=∑¯˙ºJr2ΩrnΩœ 7<L™Å<@ÂnºØÒ«ºH4äº…Ñ)Ω
+DPºÓî‘º≥à¶ªÌNõπﬁ†;?A8=˚‘=må-=¥…ë=TÉ=òSµ∫)⁄;±:D<–2=äœa=ÖÆµ<Z‚¥º!Z•;Ze„<ù®∆< ”D=WºTÁ∫¸·<b4õ< ˛ =ûΩ;Ãº%ª	òì:^ÊgºMË*=,:ø<πêj=ÀÆã<≥Ωâ/ºÍ+ü∫∂ƒ;¶¸õΩŸéæ3JØº.b<ãvºúTΩitΩ.KÆº⁄¥º8›q:Ì1:=÷…Å=ß∆∫˛NQ;úÜ˚<h◊7=Fµ+=wòº
+—Å<âÂ˘º¡i7Ωu!æº8ÔºôPπ<˛?=Ÿ<®<1£ú=7á/=p_`;¬
+=ÁÁ<¢≈Ã<¯ÂY=@√Í<æ»*=9Ù<ˆ‹<=¨µºÕ≠<ú≠ªCíº$°kΩª∏Bº≠Ωñ™z<ö◊€< ëü<’Ó; ±õ<†&=Ûf¶<ﬂΩKÛªºø≠ª`Å)<?u<õ£ºÑÔºmîºphÔ<4∂%=u¸∆<˝J€º&+=B=å®á=›=¯Â<= €Ÿ= ˜Õ=ﬂ∑<_¬ÅºœF=≥á<=b#=7Ç_=éƒ<7=X:V<jﬁÍ<]D©<Ôh‚<(e¢=@⁄=;ÚôºŒ≤ºº•º<∞#î=Ò!=	´‚;ÏΩz®pºLƒœ<=o=˚éù<¶™<m‡õºŸq.=IÆ"=Çbv<ZPΩ#ΩJº5w=∂i"=›—<°m∆º;pΩ‹Aø<RXı<€™<7+=ZÄº"ÓÀ<8ôæ<Z£(<µ˚õ<GFÇΩ:´Œ;Jq=Zµ¬=iuå=t˚=jÄº<π‚<∫ÖÍºXI=çò¢;uˆÇ<¨û)=Åtï;!†ºnÿ°º¸'â=Gº¥=5Ô?=zíÉ::’éº°H˛º®)<Å˘&<7°ΩÂŸN=ê~Õº\¥≈ªΩ›m<	Òf<◊\ΩâπΩS–åΩ-©ÜΩñ’cΩΩ¿ª∆dΩH˜ºé™bΩG¸hΩp¨Ω°ïCΩ¡î9Ω4˘ôºˆüÁºdÅóºcìÜΩ`y±Ωê¶º“!÷;ò|ªº#¨{Ω˝∂ÚΩq˛£Ω-«ΩP+Ω–Qº7xπΩxÙzΩ¡ø¶∫≥T™Ωåp∏ΩFÏê<r—≥Ω•tΩLÚ9Ω€º÷Ω*™ΩJﬁ˚ª◊èΩîC¿Ω‚∞±ΩZΩg$
+ΩR]∑<Ã{2=íf(:Ë’º…üö<6Z=ÿÜ<Û<µı,=f˜§=+Û!=}’<<ÒªA$Ì;;ﬂU=òJ=ﬁgQ=å_ﬂºÌËhΩ·mΩ`ﬂ<˜.=º ö<¯E	Ω<pº=ç6∫≤ºÃ ïª,íºfÎµΩÉŸ7ΩQdΩpæ\Ω·RΩÊÅΩ˝ê=ΩºΩëº'ÜKºq¥ÌªÑìuº.—≠ª£Õº∞µΩ>À3Ωœü&<•+Ω≤/nΩI†ÓºöÉrΩD?∫º5 ¢<≤Â<=aÎ<3
+¡<hà˜<I{Å:°¨ﬂ<ÖXb<SÕ;ÚtÇ;ˇj;ı|¬;$ô<Ä¸¶<ıÙµ<.‹<_<©π/;¿';§Ã <˝ãT:◊ì<î§‘<B=Î1=lh= Ò<ÅVäºﬂÅ;˘ôº1˝ºÚ˝ó<£9º"Ï<˘0ºû;-ª≠x;qªm§;îr<`π;P®üºG~1ΩÔ÷Áº*eà<€é;6áÄº'û{ºI<uóÉº£˙∫ª†ºñMçºìº∞‹R<ﬁ‚<4í)<aè=ÍT	=’	=‘º6‘#ª®ùôºÖ ª˛%—<˜^ﬁ<ß®q=áo˘<£„¯ªé?=!Gé={’=‹™Ñ=ªπóÑ+:”Aª;Î<zHHº§<Ì`º{ZlºÛÍcº¯“ªL4;=»IìºM…åΩ:ØΩèúΩ YÁº∏OºJΩ’Ó©ºµP2ΩN2Êº©·ú<¿Cnºd∂ÏªKØ≥<˚=—˛\=X R=3/˛;z⁄ç=µYs=™ã‘=Y7=Tó;áÿ=4ﬂ´<ß„·=ßf≤=óVÄ<ﬁƒ<›Æ<œéΩ‡Û
+Ω⁄?Pº\Áº«B≥<Üö≈Ω<®üºÕcgª,Æ°;êà©<+∆ö<˛†%=|Œ<≈‡I;§ùÀºË)Ñ<z=π<ü◊e<ˆ«∑ª±y∫µ∏U=Y3$=§n∫sΩ!öå∫M=¬πÃ;Q‹ºU“˙º^r"ºÅ∑π<€›ëºÃóÄºYMº∫—;«y¯;ÏTπ$gÉºe62º[ÄΩ◊\Ω!ËÑ<˚œÀ<áØªü∞Ω§/<Hﬂ6ª›ç<ÁéGΩèQ…ºÑq7=n»≠ª.—Ω‚aΩ˝ÁrªJÏ®;0≠êªß:¶;¬≥<o≥ÿ<2£ΩZ“C=ˆ€,=≤X(=ë˘º˘Íº0¥ó<o a<'i;=ª…L<ì®πº/K©;◊D≤ºÌ„º∑Å#Ω¢ìÄ<ø˙e<Rb∂ΩŒ`IΩgïΩ±]ïº$≈º“ƒÌºìÙΩf3Ω)gQ<ÿ˛&<C @:.v;¥p;òﬁ=Ú4e=ﬁıòºﬁ©ºtÌΩ}´ªmπqºPè$Ω@0ºØﬁ´ºñŸÊºñHAΩ∑Ë¶ΩjMsΩSXºZŒΩ$¬—Ω∫ÖÑΩÎœ´∫–≤˚;Ã…=cÁ=Ezö=£©Å:ùFJª`9å=øy∂=ñπµ;¥2‹ºˆ•[Ω<€=í:π=Kg¬<í<P2º˚ïCΩ=v+=/æ$=√I⁄<–˜/ºÊ<<á°#=6C#;22‘ºûz¿º’]õªuÉIª…X5ª˝èº∂sDΩ÷ß]Ωñ™∞<—úßºÑ‚ºWAâΩlV°Ω§ö∫;(m;ëÆ˜ªb«A;‘ÎjªÂ2aª}–è<≠ªπª^4q<íì¡º∞‰7#_º¨V<v8i<í≤∆Ω
+∆´ªròΩ0ﬂ ΩˆºU+Zª+z∂:ùz=#«∫jTÖ<µ`±º¢5=°çRΩ™céª*!fºÍ§º§ ŒºÈ"=„F©=Õù°;JkΩ¡á<d/@º≤P=Zy¨;≥û =\Ö®;6€ºFΩ…åªÓï;Ï9Ö;;„Ω°O·ºHä=Ñ®ª…∏L<˝≠”ªZbOªˇFò;qD´=ü,ç=âsº„&˛º-T	ºß“L=Wm<í–Ñ<$≠Æª∂‹<ø∆Ωså<·P ªËo<3Ùºø§j<JR›<Ó=Ú˜•=W◊<{Lë<h;Zº”;p=˛ê—=”∆E<ìÊÙ<maΩ≤»‰º≠©<Ëÿ©;fN]Ωß¸Å<◊ºÃ∫˙±Ωr [Ω–m<¿lt=à=ºÖ$=?å=ïÃ)=õ6¸<Ô•W=7dÁ<õñå=‘:©ºH‚Õ;⁄Mì=€ö¢=ï5Ì<Ú‰>ΩvápªùûÑ<˜^F<Ä…≈<b9ìΩ(]:˛=∫Ésºªå<‘˙õ∫nöˇ;∞œJΩ&√äºlPpΩÁQœºY)ª±ß’ºO!¥<‡€àΩœ8=4€µ<tü=∑HP=˙<lÅµ=ò'à=Rö=˙3ü∫
+ºÉºÆ°¥=HZ=ÎÚí<+€7Ωb(úΩúN=Ê)ä=Ê=◊¿;åÒ<+5=˝ƒ@=¨O<•äº‡H“ªÕ≥=i∂<]äº˙„ÅΩ§)Ω˙πÍ<∆Å<€Î≤ºÕSrΩ‰ê Ωåœ=Â∆—π˚ı|ºùﬂºÑŸúºÍ.*ªs‹ì<∂â≠ºÇ0î9‰Á<Gûõº∆àº˛Q∂º	E";H§t;æS Ω∆Û,Ωq€ª¢3I<¨Tê:O4èΩ|Ôº◊<›ÊÖª÷R<_ùVΩfΩ,qÍº¨@ ºÿÜ∫¢Ω;Lº∞ΩRﬂ˚ºÖ0Ωê›ˇªWˇ¶ªΩûbM;é⁄Vº≥ÒäΩ8ˆQΩñLÿºMÉ=ßÎﬂºcïáΩ?GΩQ˚,ΩÛSΩ6¡ﬁºâH˙Ω™°ΩzSΩÔ<)ÜµºQ–—;Ú√zº{÷ºúµHªÓ1=≈∂⁄;p◊Åº9π?Ω¨Òÿπdè_<JÅΩ5Ωõñ≈π÷ß5=FGŒº+ºànﬁªBËΩoºr(¯;I&P;ZMÜ<:À›<O2z;v≤<v…]Ω~zΩîl=JM=+õ<Œ†ΩøºΩ??Œº|8≤;Á†ˇ∫°*ºñè:ΩÜ Ω6Ü…;) ¨;˚qÚ<_=√◊3<nB†<ú<< ˚$<ÔK(=û£⁄:•˘ª!e<ÎgH;ô›{<ól#Ωûˇ—Ω„•Ω°Ú!ΩOÒ%Ω»Ó	Ω8qõºüH¬º°
+t∫'ê<ÁŒ<ãÄÄ<S’åªÀP=gm¬<ˆ6Ω<ˆ¯=V±<F8zOÖπú“∑<õW=„∞°<94=áRNΩÇ6æΩÎLæq?æ‹‚ÊºX1Ωµ/ºˇRAºríª¨<Ø’È<¥~==ı¿JºMZYΩù§<— h;∏K ª^—1Ω,ØÅΩºÑ<±ˇ
+º˛‡<Rá¢;/‹TΩ3ˆªh´ΩÑ“º[rYº⁄üëº§®<≈W≠;Wôº]7Ω√9;ΩZH@º
+?)ºπ∞=Ω˜Å·ºÀ¡-Ωœb√ºD˙ªÁOe<kˆŒ=ø`=VûûºS™C<ï¢FΩ¢;-Ω≠ñóΩ1Ω{åÓ<£mº<î´;zì÷ª”ï©<å¶<}Y«;Ró<b”]º›∆™=°“∞;+®º¢Zîº¨JººZïºF∏º4÷/Ωô‘kªæp;luΩ∂@È;˜õ>;7P*=∂$=6|Ω§â•Ω¿û\º·ªfÊe;ÈÌ°Ω¨øÏ9Üféºñe∑πï˛ºiÎbΩ∞|Ω„óº¥ê¯:Ÿ¶ô;4†ªû’6==ˆû—<cU›∫ﬁAΩº,÷Í;ñ8„ªrº!z∫Rû"ΩU1xºøªÅÔÄ<Î  æ
+æ≈=’!>=<¸?<€d©<Bè<,e´=Úà=Íò3=C$=’ñ<IÀo=µ⁄¬<FwA<ﬁïæ<7?ªãy´;¨´<Ûq<eŸ<^Äªº\ûë<zN<i™åºgµΩ˜ÀñΩøª-ì˚;ºÎJ=wœü=À/6=kªºQ≥<…j=®Ëù=ß&Å=ó ÆΩrRôºÇ√óª·¢ º[5<Ö¨<πM3=D„C=ãö\=0‡<Jk_;jëÖΩX~|ΩÁäíΩ€=†A=tÆΩÖ≤˘;tÂº¨\≥;"œe=Ì•)Ω,<Q∂<Áÿj<„_˜:à/âΩÇÔGΩËÆªÅª«ﬂ’<X¸Ω&/Ωz“ΩΩ√ÁªBÔÓ<îî
+ªÈZ≠º§Àp<ﬁπ8Ω¨ãw=èC=;îIºkÖç<;p)ªÁΩÅ&Ω<ÛÜΩË‚°Ω¶)ìΩÜ°uΩ_¬ ª¯g∞;ög<v≈ΩøÈ=;Òª;>áºí≥ÅΩ©íπΩ0ƒ…º∑(√<ÿ∑GºKº5<róΩÃ@:ı> ;hΩ&–‘<q'ΩoÔéºsRrºëØÅ;˜GSªπPC∫öÏ=ÊVÁ<F<≥kb=	=üºL=˝òäπ÷÷hºN	Ω5‘˝;RióΩ∑i§º]ì$=êgLΩá;∞=£›#=\qX<ìªª◊£®ºv,K=ª=Ã„<·<Ûv‹;€zùºÎ¡Ω›Ìû∫nÃjºKÍ˘º˚\1ΩƒÒª¬¡Ø<‹ﬁ:„%íº"O¶º7@‰ª;˜+ΩF¢¶ΩåMΩŒöªØ0b;bJÚªZÛ< n<∂Dóº{v+ΩËÚÙºlûº|#∞∫g(ZΩÚ1
+ΩÅöºøÉº⁄eπÈªª6åo∫§3U;^ôÎ<°√=≥ÛÔ<U"Z<Æ›Kº|Øîº¶±ãºTÜºHœøºfΩÓó(Ωÿﬁ¢ºRFk<w°π¥éª«∞"ºih{;?sºÈÏEºÇ0ºT§ªv˚ç;ÃÜ<_Sú<a7â<…õΩæfºı†vºê@ê=o§<ø¢ ΩF*ËºÌ⁄<7Jºó≤<È£º;0;gªóµ<{…˛<…Æ:¯»‚ªê=Æº°)ºI0¿ª∫¨º RFΩ]Ø∞ºu’:º•]≥<∆Ñº(ô‹;4Co<Áº ◊qΩ¶œ< C£=sÌÁ<È’ººÂΩ∞Ω—&ΩàÇ•º©”ÙΩ∆éR:>{º”‚=„◊‰<%Ω:r©ºèt∆º)sΩJmΩÔ£<5Ç<RAà<V´	ΩhÍº/A≈<Z˛ºº§4≥º
+#DΩ¯IrΩQi	;bg?Ωû†Ä=fq<kÀ`Ωçõ<ı+Ë:@â><Çà»∫ºãΩÙ|Å<ˆ	aº]Hïªu·∆<Á°Ö<’3ùΩÇh<31bµ¡Òî<Ñ√º!©;”ò∞;^1í<æ∫=QxÅ=ƒÖΩ>πeªÄY;Jbx=©Æ˜∏∫{ª§˛˙;Ù8ò<Q]Ä=:ñêΩj≠‹ªPœ<lT; ÛÃ<Ü	ΩŸ‹IºÏºÇ0S∫u„I= ©Ω3—RΩ˚JóΩ¥BÎº~h=íF„º@-Ωì.ΩdùÙªhC£=8e(=iÀ<Tï;6µ<r=KΩ/=;Ô¢ªÕ/£<rì<2(<ÆXº>ëº	†áº◊ŸΩ>	Ωûl3Ω¢cΩ`<\Ω˚Û;}§ä=(ƒdΩóûª^∑÷<AÈú=‚ãA=@Ωªæ3ºÉá;πOÑ=Rì<ÃáΩéÄ†º˜êoªÂ€;π `;ª0x<L=1Wú<ÿ¶<˘TÒ=5cΩ•›ΩkgEΩ«˝ºÆ<Fº¶º;.—ÅΩ’2?;eπ•<„xt<£W <o/ΩºL8<$ÃÉ<Í=yΩ<@p›<‡	ºEq‡<G¥;¸¶ºË‘<ñ ;πÁo<%â2Ω’FºµVûΩrV≈=BIª=€QÖ=á4';∆ìºªIk;=ñº*<L*N=≥k}<Ü∞Qº¿Ÿ2:kààºH≥<ƒÉªº7‡∫ºúä¥ºÜ)0ºÕﬂÈ<Wú:X<`Ω„.<GøA=%^b=‹Bëº∑8êººGªﬂ>£<†WT<Q<VΩ0Ω¶ﬂΩfX<¨<˝<d…Çº~uR<=F<Ú–—<˙nÀ<Y·⁄;ÀèY=™‡Î<ˆ¶<cr)=‚º*™<{J$<∂dŸ<˚ñ;˛ˆºï¯ºΩ IÖΩèMÖ=¡àh=RpΩ!ô¢=l}ˆ<_⁄5;€nÿΩT\"ºûjÿ<è<Ÿ;$=ÕSIΩì´◊º∂âè<vè:¢›m=ìAΩ‘Õæ;œs<…_º2Á∫<'ä9;CıáΩ‰≤õ<||<öäª*;åî◊ΩÏˆïΩXØDΩ‚GΩ~:*º≤KQΩ∏ÿΩÃﬂÓ<ìk·;Hzt;äØº)ÜºBbÇ<Ä‚Ÿ<k$äΩ_ΩEeœ:‘º‚Ë“ºzﬂΩˆu«ºy∏Ω™àbΩ!‡öºxÉº6Ÿ ºßM	Ωô,äΩ—˜8=ù\Ωû+ <“êƒ9æºâΩÓjº¥Îé;z	y;xÖê;=âXΩÒÉÛº|ΩïΩ≈ò=&°ìª´Æ©ºò≤”ΩêÇ≤ºI¸º¯à Ωú=¨6=÷bºË#=#!&=©=jÛÌ<4
+Cº>ï'ºäƒ;sl<Rn<aÒΩ!ë∫ºË¡0ºZJÉΩ‰ƒV<àˆö<{"Ω…CÛº∫◊>Ω@é#Ω«ç =:ÖΩi0
+<òÂúº,emº ‡ˇ<{‘WΩkΩo}¶Ωj÷Ωm˜L<5∆Îªˇó∑<UΩT∞¢:°<J™eΩúAa=iˇ*=Úw∫Œ‰ÑΩÆŒºYoÆ;∏ÄΩ4◊æº>∂m<}–=€˝*ª°åPº#M<ª÷•_<]çº«q =ön<.rÿ<˘ù=—VΩõª<Ë=<É.F<ƒK<êfæºsWªN};Ø‚d;j*fΩ{<ÏRBºØ:=<v(;ß-”ºSS˛<C[eΩ•	=Â—V=€Ö[=¬©2;ì}ß<ƒF7ª3l-=3 =«ß;ñåãºöäºëQø<Ãı“<†3/Ω-ΩÜÉÚ;É(è;˜¶Ù:˛ßÅΩ[¸‰ºH<ï•&<©€Ñªâ˜<¢º@˚ªæ<çÔ=#yÖºé2m=…~O=ÁZ¸<jΩéÕøª°ã:∞Âxª¨”	=i-<R§<˚mÍª -;Yæ≤<ï/î<wAº∫a=à<+¶ªÃéÃº[…ÛªsT¡=à$=¢i3<„<÷ÕΩ.≥†<]5uªD~;5 ºˆ1“º3uBΩ·z∫À¿¢<∆f≤<˜Qs<Yº˚∫◊;_õºŒ$Ω}¢î∫⁄¨ΩÒ¡2Ω¢DΩ°‰ÜΩ©pΩ ›ΩÑn$ΩÔÒ‘ºzU&<ñûº±GΩL≤„Ωx:Ìº±ÿ,;¥ a=b}ã=”VºπÈ<ó»ÿ<çñ˘=˚PË='È!=]Ôº51§<¶jÖº&˘‹ºõJ¨=Ÿ= j⁄<—∏MΩyùHºä∞„ª›ﬂ•<≠Éº<ú.º)S%Ωﬂœ	<˙==·¡<F∆ìΩy{çºªﬁuªùZ¿<u3áªCiºª‡·ëºë?m:B˘=sÚ≥ºÆ=PN<‚°<êbÆ;4[ºÍ	9Ω⁄Í†<∂‘h<˜35ªh§ºs»_;÷ò	=‘⁄<–Ç<
+º_Éï<∏$<Y‹;û^º/ÿº©<∂Óâº¿ò7:ZW#<ú‘™πG8Ôº÷'L:s©~ª«rªÀÚïºnÏÚºøwΩ≠õ<‹ZØ<◊>-:@nú<Ø≤<ãÎ<:Ö¥<Ÿ◊ˆ<ÁF8ºßµªòe=c–ºıaPΩƒNΩˆ{;?z‡<[]ÒºcÓ<Ω_dåΩÏRñ;n•E=ï|=õAi=S‡%ΩÌÊæÕUUΩ˚sÂº‚§6<¿öΩF@/ºå∫œ<s À<ˆJí<aº∆Õ˝ªGdˆ;6‡_=’˙;A&†<¨ı<Œê¸<∫ÿ=&zÅ<FÀ <¥Ü<yO™= I=ÅK=ΩY˛;·iΩf7ï<b„¥;/e ºØjÑΩ·mΩTsIΩIØåΩJ
+)ΩáΩ"œ ΩOKΩ√∂EΩ∞pº√ÅΩ≈.éª]‘ΩLÅ-Ω˛¥@Ω*ê∆<˜˘;U=áª£(ˇ<m'=<}QBΩ©î<√Vß<KHçºˆò<ƒëëΩ3Ωy‹º™/ï<X∑;@ ›:8b<õ”$<«¥…<j¡ú;Àﬂn;∏™#<“…Å<8#=]J2<¸≤
+ºXÄØºˆ…H∏4Ü%<'˜÷ªú_3=@ãÏΩ•˝íΩßüµº¥`j=ûz•<B£˙=ö∫>Qy¶=–ø=WÅÙ;é <ó∞z=ÎfU=Y===X1ΩÚµ˜º5Ò~ª	Ä∏ºQ§]º¿zz<≠¶/Ω”≥<W`íΩ)‰µºæ Ω]3™=(¡m<$ŒºLg<Û†°ºdOΩ[≠j∫Z%gΩ`Ωgc=rûg<± €=†ó<ú¬≤ºÙ“û<8∏_<ÍÆs=‚x’<ﬂÆΩ9"ê®Ωò¨ÙºcÑá=–
+;Õ+ΩÍÉë<◊G—Ω®
+Ω*«8ΩtvvΩ†¯xºÊn'=≥ªq*ÖΩä’;Á =ºÔºæºÄΩR/KΩ›DJ=HÂäΩI%˛º3Ï˘ºz3ˇº´7Dª±óïΩÚ‹º|”pº‰∂Ã<2x=øXΩÖ—ŒΩqj?Ω°Õ.Ω`≈ÙºÔUø:’=lΩ±<BΩ|MΩ7‚9<¸sÛ:	èΩ|Ø’Ω`ØÕΩÏ⁄õºT3ì=£:•<-8„º≠íúΩr+ΩEwƒª©D#ΩCnºzΩÒ{	;/œ</˘¨ºº§I=~ ¶;5`MΩ7áº+çÅΩ¯+Ω{ΩÌë¢º·M º	#9<HÈ<ä4n<æ∂	=OgÓ;cg¡ªÙ∞=i<=oH.<+»ºdXü;≠—LΩ8ñ;íp=`Ôæ<Bi¥º?Y<D=ÁPî<o§º.”<∆K=ß™ì<yÑ¨<Ω	∫º´ËÕ∏¯=2r°<üi}∫$‡;CFëºZ`“;2êµ;Úù;LåÉºv-Öº˜≈ç<oÄ=î<IlUº\ÌùΩæw3ΩNçÕ<®©ä<ÊG=';Ïº-p=ÁòΩû[ºkŸíºCﬂ™ºT[Íº √;±Í;»F¨;¡ª“≈ÉºÕÛç<ñ†+<ùpFΩ◊@ΩÑƒ"ΩâÍÓ<T•à<GÃ∞<}yüΩ®3jΩ™sΩpiº[˚µº˜öç==vªX†„;ìº¶< zîºØDa<_À∏ºc®ºRP=:“û<˚ΩπDóºçú3;"∫<g*=ôA´<0Ë<ËŒU∫S(‘ºQ"™ºa÷é="\xºC‹ºD–*ªäΩø;f;Â'R;É˚ûªRa¸ºπ’eΩ?√Q;Æ≈ºπ19Ωrﬂ”º˝E˙<Í=ø«ª<ﬂ˚qº†L∑ªÆsNº7¿ºlG∆ª˜ YºûöΩª§Kº%{ÿºûl¥;(	ã<êÿß=˛Ä=°Pœ=Á‘π=Ö4ñ=“}Ò<XH{=Ñ„ï=í¸û=ƒñ~=7ò<◊îÈ=”Áw=
+<º<ôt≠;”Ã <¯e=L∑º’âΩÆÖLº"Ó"ºïñΩ0sΩ"XhΩ®Ω¬ŸΩ1n˝ºª&;Ω†#ZΩ\WΩ√∑-Ωáb›ºÙN•º0ãª
+TEºáΩºB∏$ºO;•ºfãà<¢è<[âjºv§%ºo9ä;íÛ <˙ÜF∫j7Ÿª“$˚ºÚΩÑüΩCajΩΩÙïº∫‘Û<R≤Ω®3'<T9Éª¡Û Ω5bæ<pÚºOuªlo:z‰dºa~;⁄@ÕΩ6Ω9éªºÔ'0º24ºX>_ΩD/˝ºØé<}tú<¬ª¨Ej<`A[ΩıΩ∞e<¸N/Ωrq˘ºÕ¶QΩˆA¶<tØıº∑Å9º£˘º†Ñ—:∂ÚË<	·Ω˛ºº¨V=>‡<I=àhº˝›Åºqàü<%Í<îΩª~Øº≥ZΩÒu.Ωe"bΩXr=Á„=;≈ÔJ=÷é=âÇ=/∆2=°"∫ªWÏÖ=îY:ûê¿;IÓÃ∫Gitºn€2=∆¥º!á9Ωò ±º3±ªìkÄ;æà©ºDhıºi«ºroΩ˜=§ınºEΩfü≥º—YFΩX»º2BJªZõæºH≤≠ªôΩ”Ô.ºÜfºs4µ<Æ	s<·?ºoïrΩÕ„a<‘zÉ<÷vªdã«;Œx@Ω÷
+»ºB˘’ºKyΩÂ Ú; t{ºÍ”Ω]ù_<òﬂ]Ωü[9;
+àÀ;∂Ωûˆ=Ω≈>HΩA¥ûΩo=<√/ÚºΩ‹f'ΩhÇPΩÇı<äAÛª(˜ΩbÄhº⁄iº»7 Ω‘MΩ›ﬁaºÎ§ª8äºs◊µ=\xΩ]¿<ıjÆ<âˇ›<-dΩ©ÉÓºåî∏º$∂©º€ü=ÄWòΩÆpZΩ9ïΩΩ|N
+Ωx∏mºéˆ_ΩŒ~Ωs¡º{ º&Ö†º¸œÇ=¢ˆáªbË≠<≥⁄=ÈÈª+æùl9ΩÍÚŒº"å”ª¥‘©<H=é˘ª<#*Z<_ï—ª´QÔ<L29=N˜˙<ª—<–T=BJú<;:-=‚ÀHºô…ú<röN=—;¥ =∏ΩÚΩº≠«<75-<7=`=ÕHöº}xΩ^[\Ωú˘Â<[l$ΩwÏº8é<R¥=âñ<AèºR¸9Ω®¨UΩmO=ÔOò={bä;Z≥:<6d2ºtè¶=üa/=t[F=Ç=7nπª·Œ<ﬁL»ªÊØ}<à]WΩUí…ΩøÈ(Ωµ˛πª+Êº‹Mº–˚°<©'=ÆG=¡9æªû(a=$÷≥=[qx= ì-=Ö=	‘=ØÑ=XÚè<ªcu=œ∞ü;∞˘:=ƒœ®ºò£„º5a„º√≠ºUægªà«ª’ŒTΩËY"º(»=5Ü<è∏üº±∞¯º[ÀºM†ûºk4Ωp¡zº›†%<˚ÉÊªjÏ?ºó/Ωöïbº"%"=ú˝$ºM0ÏºxßTª$˜«º»d=E$X<¨≥ΩæΩ%Ô:Ω‰¡±∫ﬂ¯hΩﬂ7ø<[Xéº∂2Ω≥xáºówΩÿ∞;úÌQΩjÜ(Ω1Ω¢=ºáÂ4º7ÊWΩÅ^Ωø€Äº|Û‘9ú9óºñ{Ω4iÛªt¯≈:ñK°:¥™<´IºÓºóÂùΩô2=y!πºÓºÀóäª9<Ï<XbvΩMK‰<6c	=óP¿<l∑Ó<LΩY=›˚è<b¶Ò<9ªà<˝ﬂ<+ØO=%(*<ßb◊;jn·º.êL∫‹å;æ*¢ºÉªΩñ„¿ºà’Ω≤Í8;á"≈<4#Å∫1mˆ∫ π¥º·ƒüºKP=2+[=6˛î:âÎØº]GººOB‡<◊™ÔºœÂtΩ∫„8ΩŒ¬ﬁºb9nº§åZΩ3ΩTÌºH8Cº·ÉëΩCö¢Ω¿V	Ω°ífº.[ë<Ä–eºR_ãª≤vìπıÄ∫ﬁ¿;ê⁄U<_ÀÉ<Z¨˝<'Õ⁄<F<Ê	ª2hª_5<«û;p7—<*lç<M∂Üº“Ωòº3Gù;Ó≠ü=¨vö=¡;=πE_=jµV="{ =∏¢Î;£5Ω˛π¿<,P<&>°=†;=á4;(k‰∫≤=zÙ‰ªfbº+™àª‰µ˛º —∫Ùòÿ;£€ê<h>ºß\m;cÉ=RÌı;∏˜ÿ9™¡∏ºø Ω∫»qº¨ù"º√µFªà—(º≥;"ªXœªíÍœ∫ìË«;Ôpù;ãÄ;
+πªÆ°;˘Öµº5¬ºƒŸ;¨™…<?”Qº≥3ΩﬁÁ˜º*Uoª -∆;Øï=/ù=Z˜ºÑÎíº@ìΩîˇ"=‹=‹<n˛9:oØƒº-8QΩsÆÙ<ä‰l=VOB=¬çº˝_2ΩH.<6Ë=Øs=Xæ=Î=VW´ªuëÇ∫‰\˙<ˆÎ<õDµ<pf[Ω*πÂ;®·{ΩNêΩ—©!Ωx9iº∂uÖ=ô@_Ω∑ëÂ;åçû=X·◊;îıÍ<\Weº…öäºÃO<¶◊ºÌR=•,°;=ﬂ±<Ød<âàÆºÜπ·<27¡ººÇ<Ω¶˜lªHë=¯S=ñÚî=xüNºÖªŸ˜^=Éá=Ú¨<c*©<ß1/ΩN¡ª∫29Ü<˘†;nR ª)∑7ª“ºΩ’≠X=ÛoΩaV ΩL¥!Ωª⁄0Ω–Óäº@Ó€ºèn+º?5£ºk¯&ºâm*:ÃÏºπ‰ƒ:˝ä∫<ıı=L"÷<Ô∫8≠6=‘††<}±“<M`ÿ<>ä¥<¬6=]M<òa=T
+Ï<‰;Âû€<$Å5º‰◊U=s˝ä<NÀZº∏º°ê¢∫ÎòM<dÛ©ªU·=Ÿøcº/¡çºç\m<dMRºíwºG˙®ºH`Ω‘<’ºQÄôº¯Xn<œÊ5º˝¡5º$TQΩ]…ªA˙æ;=qêº∞™=••[ΩÛÕΩ´ÔR;„®2º€2uπZ?oΩﬂrü<¿ΩTÁæcYÈºch6ºök!=‘dò<E¡ΩÎAP=®©•ºëµÂ;Ë6;4ãäΩ≤¨=,¡1ΩO<M˙];!<Pà<y#∆ΩtÅ=íÃx<Œ©x<€*?=qsç=!æ∑<ò…∆º¿∏+ºıòÊºé§…=πßﬂ<ÙM?;•Ωà∑¨Ω;ã=h†<›£<h6µΩi|™ΩÉüì∫àGÔºÙãá∫¸QãΩrû°Ω  »;LvΩ9	úΩâ<ÖΩ√§bΩíÑbºîCä<èJΩÎtæºúº∏<o˝Ÿ;Ó[Ô<}‹¢ºó´Ìª-¬ä=‡Ù:=lºÙ<Õﬁ+ºm<®º∑1Ö<eÎxΩÀºñ∆;£òõ<¯NΩ9ã8ºÕë»<PÈqΩdóiΩD0!ΩLñ<∆>-=u/h=ƒ£ï=8cê<.Ø=∫oB=˜‘<v–d=ùò°=›Nv=z!>=‘#ñ=®5\=ó-¢<bQá=ıﬂ<ùt=ºf=Ú++ºÎù=Ig =‘£ª¬sZºÛ“-ª"î
+ºìöΩZôΩÿ5Ω¨Æúºã°ŸºKΩ:ΩúΩÆßΩºÊ†ºDªüºµ≠œºî‚˚º¥:Ωd‘?ΩÆºé1∞Ω#)©∫‰º@ØºëasΩÍ∫ûΩ:ºì∏Ωé’±º(m$=„!è<"/Pº†ìpº∑ù¸ªÑ“<U€•<
+Ç<„àå<¢ı≥<zM€ªdªTáàº∞aîºo<À.#Ω6QÑº˛^πºòº≈]ÂºóÁ”º˛‹2ºR<ˇvAº=?Æª{K?=“ =π™ÇºI˛XΩ–’ÿª¥Ä=Ü6R=Õó;ﬂ+<3Ü;âM=€
+<ï¥”<äƒg<êƒè<˛c=M$H=˝„<Ü<¡¬:éÕ=®@ì<‰Û©;=Édº∆~_;*Å;⁄f=I™!=8◊:K∑∫∑êê;Iç\<¯A="≥S=Çé=˚˙4<nO∑<Õ<
+=-¢-<÷⁄=kG·<q™<"Vº‚√1∫<Nhº#Ò<öÆ≤<fÆƒºùCΩT}‹º§Q¨<=ÉΩmø<\(È<È1»<®Âf∏:xHº–€7%…<Æ¶l=p%hº√(„ºq&éº=sªlÉ=£ "ºîÂ‰ª°ÏÅ;æÑ#ªj$-<P^<JLs:zà(=Àâ§<BR&=˛ôy<áÈU;˛/b;√Ù§ªÑ∆£<f£Â;[oœº2y÷ºO¶ñº¬£=Ç|ﬁ<˙®‡ª}⁄ΩU◊ºñ+<‚‘º@j¢º´µæº8ÕºåºòrQºG«ÃªXÂEΩoìâºW´üºŒßn<Ñ°;$k∫IªºﬂﬂΩ*î]ªôÄºhW¡ºY ∏ªoqΩÁÌÒªÚ˝’∫∏‹≤ª~∏<+≥eºˇIè∫–j(º}®	ºUf<üë3<¡6dºùﬂÆºÁh;øIÄ< }
+<V@-º˜Qëº¯n#<œËªåàKΩÕñΩ◊ìâº ôQ∫ ©)ΩËÜΩ†lΩÉÖ«ºEÁ»ºp-≠ºÉΩÙ‘Ω˝ hΩ›1ΩCÄΩ⁄Éæ¥qº<BÑº‘+ºf¥ºµyΩ¿•º‹>⁄º©û‚ºÖ…„∫5à∞Ω.ñn<OÑÒ;€lU=ú#„º)ºıˆO=∑ëï<q∆=<#ö;3º¯û;OòD=Á$@=.dºö\b<ü“ºwﬁ°<öﬁª∏ª9=eÈª=éÅñΩ‹·PΩE´ôº¶Ã<ﬂ <E≠º€|JºMÒ‰<äYÑ=]X<ñÄT;®Aà<“D˚<íKd=W$Öªçp€<®=,=K◊@=ŸBuº|>Êõ=ã`—<ˇkäº'MΩ´{=°Kz=˜*=‚I<æHÌ<Çñ=≥¶å=›ƒ:=Ã#=˚ë≥;[5≤=»˝¥=S
+q=ní=|L6=Ñ<b…ú=¸\ì;¬?
+=Ì˚<\∏Ωe¸≥ºüµºá4<äj]=Ü•`ºy(<’ﬁ≤πb–:ß<Ü<œßêΩ„¨º‚(	Ω€·ª)Û}ºµ.ôΩπ;º'Ω#ΩZÎú<ÚUDΩs·@Ω5%,Ωì˜º∞C<âØÎºàÙ;<ÿyÖº$∞ºDX<‚÷.Ω∂ãΩΩ≥@<∫ôÓº·IΩS‹;Lº=ú˘<˘1âªoz‘º9Ñ£<P¬RΩ‰~πº’5;Ω[VúΩ‹∂;^Xçº|ºå‘Áºq8tºπaf;ÊÙ>=4–= €r=ê∂‰<≠≈Ωº≥P°=Ú"?<Rºhöè<^B=ut†º√2ΩøE˙º˚/⁄º9ﬁÔºØs <d;ΩqYEº"»[ºµÁóº∑ﬂ=Û—KΩFe©ºwÑ3ªª.ÎºˆS€=÷.Yºwf˙ºLÈÖΩÙˆñ∏Mt∂ºß¯ººæ]<¶"÷<`àáºF™=ÿhX=,<9ß˘∫Á@b=Œ√≈<ë*Öº◊¨gΩ˙Pº)†Z<ˇ⁄Îº‡—o=ØO===ÿf,ΩùD_Ωˆ6äΩ|™"Ω÷ÅxΩ#@ßºM:ö<H‹<uê9±º,ö<êµá=à)=ˇâñ<ñ$?<eî(=8k≥<\p=>S5=:@
+ºMê=<$úº1C+;âMkºtÔó9%Øº∞÷«Ω+z∂Ω©ΩNl…Ω[»-º°qÇ=GNÔ<86ºá€ªŸ3ΩÈy@ºÄêeª·ü<VPΩÜ¶>Ω…u2ºh"><˝•⁄ºçÓ89L&Ω‚@Ω‘ÍKΩ˙Ω"ΩÒ˛nº€)-Ω~y!æØ”SΩ‘âΩ=AΩÁ¿ºÁÌ<€ã<Dny9éñ;kAP<¸A<ª?=#Ø)= ÚX<0ï;8Ï<'É=kÅ<yÚ¡∫¸˛ï<Í•-=HT<-çy<–ÄÑ<"ÎW<bßH=”5˛<∑Ìï<9‹ÆªÁæ <ìá%<LÇ=9≥¨<≥µ<0#$=é<¨Ä;k.<è≈ª3*Ω<5kÅΩJ⁄>9¿X¥<|4;nºä<˘üﬂΩ+xº?jΩJ[H;w;÷àΩ√’Ñ;0π∑;lÔºªŸW<ŒñÕΩ›,eΩ"#Ω˜$3∫Ï’º≥ö2∫ Rö;8Hg=Æe=ÈÁs=V’<AÏ’;ˆåº<`%S=fb=XÒ·;:j<;@=<V·<	-`∫T·Ωªôêº¯Ì"Ω‚‡äΩ™•|Ω'˝;<uI⁄º∏wº®µíªY=;=ôﬁ ªX„¥º÷ï<É›ã<8¿c=ç≠+ΩÙ°pΩpfƒºA5˙º≈z¢<>ôY<≠˛/ºì®ºMSΩJ'jΩ∑˙ºÖ$OΩc⁄oΩ<ƒπΩÌ7æ—Ä≤ºœ°â;4Y†<J∑Ù<o;ç=Umı<≈Çå<]÷íªÚÄ∑;\Íø;kŒ·;:f¥º‹zMª^∑<y8=?¡ì<|q#=(ìûº\FΩí∫õ<‰¯ˆΩ∑Ω%^ΩÊÌÇ;à[;=c=íÿè<[%=»≥ä:ˆ†§Ω+®hªF˘ ;◊W<ûwªrïΩ˚™!:Øπ%:ÛA÷<UO3<+à9nód;¢˝”º¯·5<œo«<nã˚ºè ¿ªHÜâ;e‰R=ÁêŸ<cèªÔ	∞º9Ç<H;=ÚΩ<◊Ì/=DˇQºûöªÆñ=aœ<Èy®=!„º<“(ª[ô˜<!
+Ã<
+O=Àf-º§µÓ< <OWƒ<ªU˘</Ló;›ûÄ<“ª<F¯)=_w=Úãº,jº‘pô<¡ÛÏª,§Ω‡Ω&ΩCÜò<eÉºá‘îΩC$8<}ãRΩüjwΩÿ ‘<&Qªb≈=y__<ó%ìºG¯ <£í!=–é@ºÖÃà<ŸÖm;8Â∂<â<'JΩr&≥ΩAKΩHcè;÷v<vf98i3ì;≈4<øãÎª]ûòª?÷_Ω∂à≤ª‚Üá∫@E	Ω°ü<´äx;{üÿª§=—<_ûÒº»‡“ªxÂÃ<Ÿ˘«∫ïHòºˆ=Ω%„;# T<Ó`ª;‡Ç<çòŸªª,6ΩÿÛñºŒÕ=_7Ä=⁄˙_<m∂*ºÊt*=/%ª5®;<˙∏7µºÿ;è•
+=„6◊ºÔ:Ω¶¬aΩ$]®Ω*)k<®2ã<úÔA∏[‘€ºÃPÖΩ™vÖªMaí<√µÂ∑ﬁ<≠DÀº›igΩ∏>…ªÒ…<√bm∫e©ìΩA›íº÷°;¯ùi<eƒª<∆?äºDÄ6Ωt»Œ<Âëf=ÿæ<¶Ï;=˘ù?ºV~ :ä<,5=˜Â÷<KÖ#ΩoÂY;Z∞∫Ñ¬∆=˚ÜoºœYÖ=aøö<‘Í‚ºeƒµº,tˇºB(ã;&çY<7dÆ<÷Á≠π‚¸=EûÀ<∏iµ=¯’a=Ô„ÕªÌ¯>=≠€yº—xì=Ûzä∫…)ı<wcºo3¥=	/=‡x£;.‡ºKG~<∏odΩ'_÷Ωsÿ’º◊êπ∫ÎEÍ;ËŒ<ñìººâo˜<ˇ◊;ç9ì=¯ÈºÎÕË7¬¬<1œ‘<5|}=≠œï=qêç=]öÑ<•Ô==Y”	=›É¸ºÀj\:ãù=ÿ±ÂπGbûΩ‚L∞º∞nA=¥¯jºË≥ˆ:	ˆ˙ª`?∞:,≤b<n·K=ıö=≈ºp‰Y=”WÖ<w.◊º∏%Ö<S‘H='§ºZˇk<j¿k<ëo=vDÒªÆÛI=#¥≥<8Ê4Ωâü;ΩNÃ¢;ªx_=⁄¸∑=¿rå=ûÁFºÆ´Î:ƒ_£ªttáΩ@eπºM›†ªÖs4<„À=/Ωf+<Ω˝DãΩYdõΩ≠:vΩ{Æ†ΩÌ>ΩøVΩ§≈ßº+ÒXº% b=L√G={∏3ª?m®ΩA/+Ω¬fº1ç;a+Ω fÌª6XV=x·?;fu#=£2<ÔfΩ<‰¨m=úßÔ;ºZ=ÖaΩ<6∏-<Rá<ä;9›∂Ø=Å˛ç=ÍÑ)=æ…)<I⁄[<ò™<Œú/;/– ºÃ¬Ø<+
+='6ªmh€º3vΩáS{ºŸfÒπ]C≠ºníΩ∑z±ΩÓ5FºwØtº›22Ω•à´ΩúuôΩ¯˜º≠ΩºÈlΩç†=Ω	¸íªñ„æ∫ÕÏ∆=^z=Y
+|<:îá<ÚD=á*Œ<™Ñ<ÃE¥<‹@=·"<HÁ:Ü8=˘çz=~sã=ü;∫ºnó÷º”Ì‘<ÑG=˙;ˆ<àB®Ω°$>Ω£Lx<§¿<ŸA•<ÇL∂Ω¬ÅΩPmìº›k©ºÁô•Ωjπ_<)T:q≥^:üJ√ºèFΩ´z©º(!ΩΩòcΩ⁄‘ºÇDΩ1R”<Ö&ΩÃäEΩUHçΩ'≤ûº÷∫Àº;vΩr=}Ωs¶√:
+¸©<∏≠=:RΩ˜íÏºäÆºì–ºÏ>?º¸J<U•j=;H=	áÿºBÇÀºò∂ºCfà=l‘£<ü87Ω≥L’:ãRº˚`{ºÔœΩ„åÅΩ¡$t:]ÅΩŒˇ§ΩÛlΩƒÇΩ ˝MΩÕÓ1ºœ{ZΩ;„¶ΩrJΩu„xΩí<Ω}©cº®…3<‘O=Ì¬—ªô =1∏ãºÏ¨âºËM£;Õ1äºoñº™ttº‹e$9ôäj=≠ÓàΩàºóÀ•ª∫[<ñ€È<–h}=!˙<˜)©ºß•:ºL%=_<‚õê;∑πΩº„óΩÍŸ‘;†Á":8£Ω8L•ºEËÕ;>6;/åÖπ3	›ºÈ;•º“Ò…<jôô;ÒÊX=;rø<$Rº;4Ó"ª∆¨ºÊr=+0£=æ5Çº&ﬁ“;≠ËP=Fç>vÓ<{î$º¢∞<∏ˇå=∂ˇ°Ω%≤¢ºú>Ä= õâ<{Ω|Zºzºï©Äº<É¡<’=$IU=
+Ú7;…2Ω>|Ÿ:ó–„ºäÔ=èi<·„âº†Ú;ÃÃ-Ω„G<<Ìú<⁄Ÿ$ΩT.<Ò:â<{ÿ%ΩÒZΩ“h"Ω Ω∫9ìyÅ=ÈJ;æ˘Bº&∫πº3!OΩB>¬ΩIUNΩsΩk˚Ñ<ECﬁª"∏Ω8M=u<t”Á:Ø\=kıº¿£q∫ˇ{µº©•&ºh˜(;Œ≤¬ªg™ÛªgôºÌN:º£.Ω‹ZΩƒ¡L<TüRª.Åª)èÚ<.òÉªì*=ªqa=ºÆ∏º·É?=≈=/_‘;k¡»ºI)GΩƒtNΩ‡Ï˚ªwäΩ&ﬂâºŸ<_ΩmjΩÃN2Ω ∫Êº®!;Æ”Â9àp€ªy’LΩıëÂ<3Ì =;$º™ÑôΩ—∆ΩΩiÍµ<ñ-</KÑΩáâ∏Ω36=„=û<·3ºoó<~+`=!Åb=ñ0D<|˘Ê<≠N©<¶é?=òºØë∫ıÏ<êÜ<»Â<ãy‰ªP⁄/ºwœ.<´÷=^∂ƒ<ËÍN=¶8ºcΩ¬Z< ‡îªÀN=Î'„=qÎÌ=PóÜ<ÌhAΩ'≤(;W3=⁄<zä?ºíeµΩ$˚äΩ)ªøª®ΩHUºpŸåΩ|…<„Ä2=≥∞;qº]='˜Ì∫KÇÎ<t]ö=√ÏΩ;…û=ñ>;&ˆò=hπ<π≤À;@ˆªßº<`ëå=7Ûñ:“t¬ª1=BÖ<=Êú±ºÄKΩër°ºxÒÔ<Î‘ã=œ’Ωß˚<ˇê=ô•≈<≠∑Q=Ø—=≠™A=ß¥4=r  =5~§<!)=\?ºQ°ì<'…-ª†WΩÏ°Dªﬁ ¬<OR.Ω“ZdΩËÆæºsî£ΩÅ…6=Ú{<HÏ= P`=%.Ωb:=)˜Ω<Ñv=	6Â;Äêº•Ä;Úà=:≥á=∫Øèº£ôö<ákÍ<ÃÌΩaˆ≠;∏∆ÇΩÑ æâyàΩq!FΩÏ?Ω|ΩA’§<$=¬==BÜ;ÀñΩ∂ÄÔ<¯B=!ôÓªQ4^ΩZÃÖºÙ+ùΩˇCÁºçdÑ=[>≥º/ºÿ5=oÙ_Ω‚N4Ω˜(J=cŸ<◊X’=∞x⁄;æ‰®;&iº∏ÜÜ=¶vZ=çf`<∆Â/=¨	=zÒQ<öyÏ∫ò1°ºs%˙<zÑF<2¯‘<
+[(=jUºﬂ;J<uj∂ºYX¨ºèì<,Ê‹∫ÓË¨ºâÇŒº©πΩ∂®ò<ŸŒbªQ`Ω≤˘-Ω¸¿⁄ΩÜf~ºÑÒcΩÆJΩˇê=ΩÖu∞Ω:ü,<Ö"ºJe]ºÒº?„ Ω∑z<íH<Ñﬂê:^x–;xg<|–J=k•	ª˘‚qΩ¶Y@=º◊Õ==!Ûæº˘»H;oRºÆ(°<0ÜÎ<‰¢=Ú©@=yøí<œ™;=9˚ºLªOˇª<ﬁ&J<√≤=ûèU=€‰<Â¢`º˙Ëº˛BΩ;gû∆∫ì‚?ºË=Zc›<ë~Í<õ 1Ω=B∂ºù‹<(Ó	=!é´ºÃ;”È<yÑ√<i_úºπdaºMÙá<Á\Òº{)cΩÇ≤Ω∞ªΩ°ïâΩyx'Ω'&OΩ¯Uƒ<·—ª§íΩÖIËºÅ∂º‰:çΩÅ‡†ΩbcöΩñÜñºü{=ÎAá<BÃªΩÚM
+º.ı`º‘KÍ;∏.Åºljì<˘Ï[<ü«Nº=∂ÃªôLñªYãÿº ∂Äº&⁄*Ωπ6‹º^⁄ºLpΩ˝€†=ú§M=zT[ªük	ΩÆT`Ω˜Ω)/Çª®<ƒqÇ=OV°<ŸºãåCªîV<ç<!€gºÈº.óΩÚáZ<Wêªb√º§±÷ºK∑2=ë—æaÆÓ<aR∫∫èsΩ IΩ¡Lºé¿]Ωtñªü˛‚ºcãªçDºˆû¶ªà2µºM⁄º•<‡6< ﬁ2<o⁄ÉºûÃÛºœæQºhíΩªPùaºú|ªº*a@<‘=ˇ==+˚!<ÅÑvºµ[<öS(ΩHº<ΩiØíΩœ∫pΩ≈¯âπ:®∂ª6D;#]·ªô[#Ω9ÈBΩÛë∏<ìÙ<—:°ºﬂ;ºŒ:ãΩ”Ü;ÑlÁºs;¢º‹Gº-Z5ΩHRY<t∑ºz¢áΩØÕ7ΩÓP)Ω	wâ;),:4Õ<ªKY≤<ãä≠=[|[Ω¥TúºËV®ºãˇ;øºø(Ω–«º∂ <0qu;∞æèºπnº a<Ω®ÿΩæXâ;Îe=â∆O<˛g.=û¿=6ˇn=2A=ª‚'=s◊ΩÉùº…˛YΩ–Éºi«&;å≠≤<÷ß<p¯:oY<’W<£)˚<ÖGÀ<˙åW∫€
+6Ω8c$=y?ñ=MRF=.<¶ªRPﬂΩ U¿Ω…'ΩD£Íºw∑∏ºñ≠ª+yHºΩ†ª˛%Z<—åˇ;9j,=Q,@º[àºa0%ΩÜŒΩçªÜºDuáΩXΩ	ÇΩ€öª(l˛:*VhΩ£ßº'ÇΩÄfºyÇ<ê_(=èãú;Öj=Ç”ç<{(È;Bãº7)îΩ(ªlsΩi‡¯<úT≠π&ã_<?ﬁ=π$|ªõÒ@=am:<aZ=ª∑Ãƒ<N∫.çπ∫Úˇ<ûñ	=8bûªãpºí>;«H)<DCΩ:ôºg~ôºÕçºñ·<ñÕ];˙v6=: 6ΩB‰=9≥:!}†º”Ò∞ª\®∏<‰Ô =√o,<{E`ºtczªoç‰ºõ	w=9I’;^
+=*…®=¿π¥ºø‘=|çΩ`—dΩ‹“y<≥mXΩe;<æ/Ωw(æ>Œ'æÛíÏΩÿ~4æv;ºö¶=ºj<Nâ1<z¥Ω¶v<’Ë=…+<1—∫≠äêΩÃ$Gº^X<#|ö<õ~ÏºÒ/æ_Ω3∫<’^4º€°Ω⁄≈Ω˘∏Ê<d0•∫ﬂŸ⁄ªº˜b=bÏΩB|ΩÌo”ºÅø<VòÆ<Œ'≤;`=⁄d·<Zºä@ª∫ }Ω'Ô∫3À5ºvnKπÈ¥˘<±¸áΩ≥œ˛Ωù<ãΩT<®"º#=∫…A:„î—ªzã`;üÒÄ=ˇ~ÖΩ\1;Ω9ıªüC=™m=ÿr;Ω˜—ºÔö¨ªZG=û“ºº§ƒ≥;I§ºÉ|†º˙ªbÉº*â>ΩòáΩ¸P<9â=k†;ñî6ª∆ÑåΩ=ìIΩıWΩ‡÷`Ω@L∫¢Íè<¨£'ºj8Nª3;ÜΩ!†ºHƒ.=√ õª§Ÿ;€KΩ. ºÎ5çº6èºªw§ªàK1ΩÄˆ1<ˇk<ŒÊ=é°Û∫q;ç<rπ=∞1Ωõl¥º∆Sª;äü<X+Ü<zÅ<$Oª4ﬂœª•`=∂∞ºœ,=N˘_<á5^;b6ÊºÆº∆˛¿<≥[‘<2˝ì<¬˘xΩ»%dº&8C=U¬<ı∂Å<˜x=”Î4ºqvªÿlΩ œ?Ω∆è= =Ω∫WΩ´d-Ω{ΩùV≤ª#ÍrΩ∑uº
+n]ºX≠ ;õoòª˚Ë˘ºrà¶º´1º≈XÏªhÄ¥<írºV3 <éœ˛ªÀ≥<dYJΩ[á•=∂ıΩ˛Ïºs∂ãΩÒ›è=ÈQ˙ºg™òº1∂—<ˆÿ<kµMº\8=xáªGÉûªä;|a=mxêªπÈ∫Ê‘<ÿõÅ<O7=¢‡∂=ˆæ=Ω∆ÈΩóLjºhµóΩ‘|RΩ≥UΩë˚’º,¡7Ω
+7Æ<v$Áª=-º]∞∑º¬r;ù/bΩ ÆÌ<Ehr<sˆy;¯><RËΩ[0˘<a˚=z¡È<„
+c<~Â≈<ø¸@ª£ÇΩ◊øäΩÿÅë<#a¬<† <‚¢∫®	qº}Ωô∞ªˇºÁÅ∆ºd:ΩéÇºÉ:ïqãºIÖªmı∑<?tπ<¶n•ª™.OºÄaEΩÛæÆ;i=wfå<øÿ∫ªÆºàºy©=Sã=Á"<sΩa	Ûªüî Ωx¿[ΩÆﬁcº√5∑º·nº>êº≠¡¯ºëF<“2Ñ<ÿYé<x…2=‚e‰;7>ºñ?ÍªÚh™∫1t∑ºÎ≈…ºGÜr;∫©•;∑NÎ<ˆ∞Ω˙ŸŒº∑cºK6¿ªZ∞<	é<`~º}Ùãº’ÓQ=íÖÉ=˚¬<∏≠–º√Öºº‘v<G¡®<Ñ§=ÌD<∞ˆq<çØe<ÈKÔ<õ)=œc°<ç;’õ*<√˛l<´—ºªu¸ª{ËÙ9à#u<g.Ω±:E;÷3ıº˘˙ÿª	&€ª¶aBΩö€Å<ÃøΩ}AºπˇL=œë?<˙Û/=ZB”ΩÄˇN=˜ûEª›⁄cΩ©D’º<*mº(Ag<GKè=fÙº<»<-®H=>ˆ¡=ïF=Ä⁄=ÒÑ†ºÉΩ}˘ß<´r=˚O∏ª§;ΩÏeFΩ≈|=˝vË<»°ñ<y£;yÄÎ;!„°<VMæ<j¿‡ª∂f<õÍê<7—ú;#^Øº-^Ω≈òΩõVΩ•≥`ºpêΩö2ÑΩÂÖªfAìΩgc=jªÂh–ºr&†<0F5Ω;d=@8a=Œw<é≠TºK4ΩÆ˜å<W¡<˘r≠<QÑ<r›Ω7Õ∫¡b·<âRé=©Ô<èÅfº∫—cªÁƒí=X°º~û¨Ω‚⁄oΩÜ⁄=¿†<•˙ˇ;∞ßÅ< YÓºÇ¯ª;ë‰V:+¡º‘⁄˘ºDt9ΩØ@ëª=Ùº^8º ;-ΩFiΩ+˚ºÇ¸<AsYΩ<JvΩÎ •ΩÇ<ŸáÄ=2!©<>sºkˇ	ΩæÔ®=ÎN9=ÛP=ƒËv=±ñΩ¿≥ôºmåL=›+H=\g`=œÍ›ºaåàªŒ+}Ω¡G¶:oöZ=\√¬ΩYD‚ºJ 6Ω#ÁVΩq≥j∫±àÎ=e$Á;©ŒE=qy<Q`s=xñ=`<w§]∫·©ªÕ•ç=Õ= h"=ÎπÿªÒ¢5;ñí:<+6:=w»∆º}=QΩﬁø<ÄnMΩÛgÛ;´•Ω5˘Ω¢Á–Ω2f_Ω¯˜;ŒVÔ∫≈∑óªÂÏΩdûº†Ó_Ωƒj-=¬Z™ΩÎ≈±ΩwΩΩ¶C…: ~I=ø•-= ’<XxÃºùºº≠,=˛Z5ΩX*= ltª]Tò<#Áj=#$‰Ω8dØ∫†Í√<kíΩQΩΩ0¨Ωªˇ˛ºﬂ‚?ΩÌÃFΩ¢ÿ“;Ü˜ŸºÕ5ùΩÊ©ıº‹µ€<^–•<Äà‚<ÏuF<HÔ&<àÔ∫ëöˇ<÷¬7<Äèˇ<Åi\;â¯;ºàvªä(<¬!ç=’«=õà=‡Ò»<ágù='ü™=˛S<˜Z»=Åﬂç<Õﬂ<`;˜<hõ:ºY˛è;ˇè;Æ<Ö™‹<B,âºÇ’@<†⁄˚ª^ª
+Ω&†Uºå≈<Ω— <√≥V=_eºJ;r>OΩT—<TäŸº{ﬁ®ΩÃáæ-˛óΩ=~<@N*∫)<≠ªˆåZº˘™v<!|<+§[<-˜<"¯ì:YáÏ;m-<'`æ<Uø–<-[a<3}ºÓ-F;Æ<ª 5ßº_ûºº˛@ Ω%#ßºÎºÿT¸º◊%Ω<√|ª\jlºË¨dΩS∫Ωœ(ΩñxØΩÉ∂<sÂ<y =<ûM•º±yÇº˘Çï<º4¸<Ï¡-<.…ªs≤ÄºIñB<g¶"=X≈;ÖS˘º‰1âª ¸4º{eaº†<u\ñºÈ‰ª.2Ω’ö¶:∑ÛΩKÅΩ(¨º¯Oﬂ;∫o†<‘Ã¢<T©Ü<?õˇªc>äºÿSå8 ohª7?<€ˇ<JXÖºÓ\KºX9Ωπ‚$Ω˘√ﬁª÷NΩ œ√ΩÁxΩï–“∫¨@÷ΩgªªÛè<ΩSø˛<‹ToΩK\æXãCºV§zºïà%=ÂˇºÜ=Ω«-∑ºïΩÓ(<B=iJë<Êï◊ºÊäaΩKØ:á<∏´<˛TΩ"mΩË0§ΩŒ$!ΩŒØÙ;v=8	ô=Ïh=£≠=[ù¸<ÉÈã=ˆcò<A§qº]¡û<Pû∆;6¥<NÄº˜«BΩLwä:Âb–<ŸÍ<‘zﬂº`G*º$ñ<f∞=èÁΩº:€3Ω¸óoΩËB´ΩRÔéΩ√:íº,ûΩYt:Ω-∑´ºCÜ;òÄ<ÅÊ≠;îõäª’ﬂöºdçú<?˙Ú<Xùç<W'è<”kÇ:ˆƒõ;ÅÌ!<“=P∂=sê<*Ô3ºÃŸêΩ≈°xΩ˘%iΩ¢ÉUΩÛ£Ω)g®ΩŸXΩfh}ΩÓÆÔºx
+ºﬂΩ"61Ω?”òº≠WºDŒ«º*RΩ≠l‡º`"fºÁ+:“–O<ÔVΩáêº∏Sﬂª®ÒîºBﬁΩ[ßKΩ&q›<∂hô<ı”<Ωf ‘ºp∑ıº’º8JÈº∂^6=†,=å≠=Ωª‰$ΩÒâáΩ)–•ºjIß=ó˜ª§“<∫Ij<Íﬁª(ÈÍΩIÆ;Úpx=†bæ<®Ù%<∫Ω:ΩoG9ΩqD<‰ªl©Ω˜⁄†Ω¬~Æ<:6á<wº<è“<ÌlºkMﬂ;(è√ªii†∫Cˆ.ºqgΩøI∞ºëF';∑È0=fF>=ûéÌ<Y˛“ªª9J¢'=ô8â=§,=–zÌº?zÇºN¬pΩÈÀ)ΩîäTº£¸Åºˇâ<-‚æ<ÚßÜ=ù6= Cñº©=‘g=à<Å=e=q¶:=`·»<
++=*‹ºI|*Ω™ìO=«Á8= :¨;´ÑΩ◊ˇQΩ8„º¢“í;é
+àΩEèª@79ΩÕˆ,ª;iºAæÖº€;„Ûr<b˙º/ëº<9‘<‡≥≥<˛#|<"˘iΩhñ+=≈]=∫=qŒd=Àù3Ω¨4=CeQ=˛=W#Ä<ì≠/ΩXâëºåxª§qY<˘ÍäΩ;üéΩo¿C=¬.ºå"ÇΩπXcΩf“(ΩçD®;˝TjΩ¨UJΩ¢Ê5Ωá‡ºÂÛà<ˆ'∂; è<ñß<Y
+<ÀÚ^<™¯-=vô)=Õ“Ω=2SΩKˆæ≈óêΩˇ√óΩ≠ÜΩÆ±<≤kôºQ‚"ºå†2<P?≤º{'ï<$G©;ç.N<Âöe<!’ñ;:{¶ªåÙ©ºYà;!Éu<˘ÂÌªŒuQ=Ù>€<ï«º<ﬂ˙=Ñ¸Ω‰WΩ⁄(mΩÊ¨ΩT!iª7–óΩ…:ΩÌ^j=B|Ωx…;ΩR6QºYŸΩ'ôº˝ºŸ=º›-Í<\	ΩÇuPª<5iΩ»àáºh;ΩA≥ì<◊kÚ<ÁèUΩc§Ú;å‹@;ëŒÖ;0ëΩº(OßΩπ√ΩRˆRºö}TΩR*ºF9=ˇÈl=ÏK=ÚKC<ÛM=)∆=µq`=©0=(±=Eù»<—◊Pº&4¨ºy“<¬nû=∆∫ÿ<ïéºªÜ <Ie2:w<Ω¢~Ω £ª]d0ΩæµcΩ%yäª¨ ΩGl4Ω≤ÈÖºòrÏ8s6Ωî»¥º1#ª¨eô;⁄ñ˙<–ÃûºÎÆ<0<Ñ;ÖºÄ‡Ωº·ØΩ±8…<§ò¨<L9æº*ÆJΩtÑOΩrœ≥º&k<Ω¯§ñΩ)ΩÓzKªÙXò;éΩ3HZΩ1r´Ω™áC:Ls¸º¥˘:Ω∂÷gΩ%ÉzΩX¯!<YÆ'ºÛ^lº9Æõº…H*Ω¸ø*<a6˚ªj¥”º≥√
+Ω[~Ω%ã€;∏MΩ<ù¬O<#ßÌº|≤º „ªN=9ººµÑ<ôB=% æº/å3ΩT‰Ê:PÄ“;f?∫i¥*=àÊº'k•ªüáûº” ºÏ:—o ΩBMö:∑ƒlª~Áº_ú|ºBã3ºJ–fΩyÖßº3 ÄΩ8qΩ»™Œ<∑7=÷8ì=©z+=S/ˇ:wˆ<B]=4Ÿ1=‡å;s∆º2›ô<§E]<ic>=oP=/å;◊¢=Ωà°<§VC=pöÆ=≤Ñù=ó@™Ωﬂz§Ωﬁ^ñΩ˙»èºÏE«Ωë˜<¬åªg‚ï=zº.=ZfΩ≤¶tª®*§ºØ7à∫Å.≥ºb©=øl5<8!ºº˙ÙΩ•¶ºR[£º^Ï¸ª˙ÔxΩRokº-„VºäÀΩ†≈ªû;ΩOL'ΩEcïΩ=ûΩ ìŒªUU	Ω["c<7
+=π;π⁄e=îãL=,‘=?•¿ªõ⁄;ì:Gº!Ä"ºR°<ÉÉÒπëpI;‡nΩh·ÕºyD=~= ?“=ò∫<Û©Ç<çæ ªüﬂª
+Ò<‚E1=l?=Ùé;1∞—º˝»M;3Ö6ºr∆ÚªgPRΩΩéÂºÑnÿ<q˘:oR ∫5)/Ωj…ˆº‰Gº„7g;l≥;≥ºÆÈYΩ*fº·jb=s[A=á	€;>?ˆªãF=±ùs<{Hv<˛»‡º©ÉUΩs‚a<2Î<;>ËÇº¨ Ω©„ßº'∏Åº<ºH<˜<ÿ…€ºZºï∞Øº{L<mº<—øò<ƒ;KsΩª]VÏ<˛ÇºΩFwãΩFd Ωu7Ω‡%¥:&«íº%îΩ“ÊºCÿª˚>Ωûå*Ωá_8Ωˇ‡ˇ<ı¿gΩDΩÜº+ä=mÔ
+∫∞∆=û≈6<\i<Îæ:◊AçºKõº¢8ÑΩ{b=|'&Ω± :œ‚KΩ’ï*ΩV√LºµßÉ<èÄ<‰E©ª÷T=´‚ΩŒ4;õ˙A<©†ˇº¸Vî<(∑Ä<ù6=Ôı¢º»..Ω\ﬂ;Ωm <›[nº 1´Ω]W¬Ω|Vvº;©õº…D¿Ω˙|Îº‚ßá<†=”=ÓQPΩ„píΩ§¿QΩ¯ÌºÏåÒ<à|ìΩ‹@fΩıﬁ@ΩßΩîÊõ<á§¶ªNWOΩ$8#Ω(Äﬂºàáöº'ß•Ω·çƒªKªû;3gpΩ1p∆Ω·wr=ÉºG∫ß¨>=¡Ãà<SÙ<æ1æª0Ì‰º+ö\º›|Ã;3=˜;u òºâ„ÌªnaOº»Ê<qÃ<◊À=Õ4‰ºkè Ω¢I.ΩQ ;óo <ÍÁF<#ÊΩ¥ÁWΩgÒPΩw¥©=’1º/∑n=`á=ÔÁ∞;´ˇ~<ÌÅ&<$?=¸J=›⁄Iºà_=›ƒ¨º_T∂ºÓ-n<Øu¥Ω√“Úºﬂ˜=R·º}W≥<m0ÀºD ªfj<¢É;Ø7jΩ,ˆDΩ\Zë:ë˚q=Êè2=|FAºãJ<ºÈ‹ºÒv©º© Ω“ëﬁº®'¨<˚∂J;Úÿ≥<D©<	5=ëùP=#Ì<À˛P=]æ∏;∞`Ωüﬂo<Æ=eÂ˜<óeΩÏ˘Ü<AP=≤}Ω&æ‘º!ó-ΩøËÀ<ú¬£=ªvÛ<ª=Z}=‹C,=7aﬂ;ï:Ω!Íﬁ<n±=›»©Ωô¸¯;{KΩ"Üâ<Æl=⁄}~Ω§d»<ù9‹<˘√Q=yù[<X‰ﬁªôÄm=ñ4æïÊŸº£ª°íº˜ª£ò©º+{@=æ∏Ö=µÁ›º`Œoº}Ω”‚¯< Q=~eªaä˙º"OÉΩˆrh<*9="≥'º‡/={·¨ºV-B={Ö=µdÈ=®¯¯ºƒ|Éº7r0Ω?»;íWz=$ˆX=™ÍîΩEÍNΩ#‡<ø$=ynû<≠¢Ω è<Ω\xC=ço=ú =ù.õΩ˚"[Ω—ø£<]N§ª•îsºqé¡9ß›∫ªπzôΩ 3Væ,{\:ÜG3ºDº$e≥º≠<*;vº`ﬂ<Ru∑ºK·«º`ã≥<êŸhº§ ªÜ'ΩΩ÷ˆº\-¬ºµ`1<ﬁ_c<îÍüª’ﬂ8<ãr»º≈öê<qÂ˘<¥`<ÒÒ¯;" ª’ÓQ=glºTx€<?ñ=|B="Gú=…Aq=“Iªç˘À<”∑;˚s <øÈºq¡=f=ê¶1ºÅlØ<∏érª∑É=3ï3=D74ºRr=Ær	=6∞º<ÁˆØ<W£Åº†J<ÑBººRé;Æ [ºûÛº˙Q"ª%ÛB=K=gÖ‘<-ıH;‘>ÒºP=öÙ;˝D£<ûsµº|Ωà:‚¬Ñºi¬ªÒ{‰ºBî∫º/O±ºÆ9Ωß%ºÒg.:∑º°öA=EÂZ=˝æ1<é ù:ê|ﬂ;y¯ã<ÅH=vÁÅ<©ºï<ûƒ¯ª„¶2=Fv=ãg+<çcä;|áΩ˜â:=M©W=CÆ∫<F°GªC–≠ºò@ Ωw_À<˙X7=ÔºX=öﬁ‡=*YBsequential.4.biasJ@i:ﬁΩàÖñΩyΩ)æ X<9—îΩö≤"æî/ìΩ’´CΩ>‚gæ 5÷=ùçº∆ÚBΩõIΩ,)_ΩO…MæYzß=*[Bsequential.6.weightJ@I.@Y™Ù?¥‚@◊â@Ã≈„?‘ê@¡Ó?n@ëO
+@e=@èÛﬁ?*≤Ï?kuÙ?O#@4ﬂ	@©Á@*YBsequential.6.biasJ@=AænmærΩL*ΩÆª„º√(=ÙÚ›ΩóÍ]æY˙!æ∂¯>«íΩ:e⁄Ωœº9Ê<X±Ω?æ*aBsequential.6.running_meanJ@íá†>©Ñà>m	Å>˙.™>iÚ0>
+9è>8o>è[>n‡>kÈY>Nü8>|îO>aH>0Y,>ŸÏZ>nIn>*`Bsequential.6.running_varJ@è˝?ÑXj>êÉ…>ºn ?´∞>Çl©>ﬂ/ˆ=%g>zçY>'…ä>îSb>-J>πN	>]H>úﬂw>RÎT>*ﬁ/Bsequential.9.weightJ¿õsæõr¬=c ≤æ|æuM≥=˚l>]Yæ◊º9æU&æF‰Y?Øhûæ·Avæsµbæ=π?5±æÀA-æû–ñΩNêë>æ≈áæ˜^„>Ç1ºÒ∏æ@RF<©©?©á;æÖNæNZõΩƒ§æAR‚>H©·ælŒ¬æ{§¨>Ô„Öæ»+?î|?uwıΩs´æ«ó?=TŸ>÷Í[Ωñi√ΩvëxæÎ÷ò><è≥>g7>>	∂>`ﬂúæ˛b´æÿYíæ´6ı>Ç„ıΩ›éΩ6Q?·ùë>≥l?Î8ïæîR>s˝îæÏOE=:ÛΩ∫´°æ∆*2æá’æU)/æ–˜ª>yÇ>—JΩ£rI?k/Bæñö\æáPæpw=fIÖ>ª?°ºØ‡yΩ‹Ù=˛“`æñL†ætÇ˝>-‰üæ”`¯=k’æö”æ¥èæ—∏íΩ|z-?›¿>áè?æYSèæHáèæ«úæ'kS?Fp‡æñ©”Ω⁄ø>(∑ê<Uò÷æa|û>ê‹^æÁW<Ìéæ¯$ß>õ´qæºI?≠S æHv?ïÉó=ŒÇb>ræè≥øﬁ™∞>atMæouπ>q˜?3F≤=r˛?rY>A›©æ≠FÈæ©¶æ2ØÈªﬁäÕæw#ÖΩÉ¨∆º?4[æo‡ô>Y”»æŒ â>*=‰ø∞ç‚>õWΩ±∂©=yÎ?@öÏ=â¸º∑É]æ7|>ÅµøæÂ'”=D˙?π1≠æòæqæN‹sæ¢∫T>ßüæTÕg>B^q?C∫¿=Zzû>˝Oú=øuæ¶æ/7æœûêæàÉ»=¨úïæ©< KµæIÎº|YéæÛp¢>7äﬁ>d&ûΩŸVYæklMæø◊¡Ω™!	øR@~>j;æÚ[¶9¥îæ,Ã=°∂[Ω„œ>«Â>sOÃæ@ÓiæC·≤>?≤®æì√0?åÍº>(Œõæ˙≈àΩÿ≠Sæ‹ q=YÖIæ@|ÅæDŸˆ<ÂïeæÔá5<j…™æçnè>ŸÚòæ—˝ æO\Å<®≈UæäΩz8jææ-Ç=cúåæ_o»>„4O?ßcΩwßäæëx>B«®æ-ºÈáàæ~ë¢>âãSæqDœæ~›‘=áæ¬>¸©MæÂâ‹æèÃîºm(é>±úæWf#æ'‚>B->‘é¬æ ∏>)ªÂ>/]ŸæÃ„ÕΩTZ«æËkæd9>À˘ÿΩV´¶æÃÍ™æËæt·?gŸ>∆Ê¶=T≥üæ∂<´>OZ¬æÆ9?1•>T\æÒ-«Ω¸
+æ<·Æ>™ôAΩ|ΩåæËâ¶æãÎöæ¥[=í;Õªc˘Óºxw¶æ|ÎY>éQ†>ÙñDæg?<>”}WΩZÃ]Ωºáæb?ÚSíæïGæâ Ω∂–=‡EÌ>'ÿæÆΩæ…©æ˜k√>z%æî
+Ñ=/'>°∏E=¬ØTæëW"æñ≥6æ50Ω"ó¯=ø»?£ íæü <æû}æ:5&æÈ©ºæ`~˛>?÷„=ã&æ!{Ö>æÑÀæ≥≥ı=DyØ=gêà<·¿=ÁgÓ>EæóH©Ω}˛,<é‚?√©Ω>u«Ω¨öø∞©d>zÈ¶Ω§>wTæ≈€ ææàj<Ä‹Mæ3:'?/–>ﬁ(æπS#æ˚d<=<	‡>g<æéÅƒ=…⁄ΩFÏ
+?Ï°c>zEæ=a ?ç≠Õæãòæ–çæ©∫Sæ‚ø·>¯¸Ω'Äæ=f=X¢#æ∞Ù=ôt æ¨ ?<˜æÙææ$∂?Ω∏Üæ
+ˆ§>I≈.ΩêƒÈæﬁp∫Î6&? íƒæ ﬁÉæÓ˘>;LæØ	?≈≈ÃΩÀOöΩ}R™>ït´æYgCæ J"Ω:ÈGæé#æ¬;AærMæì‚£æ"°s?™åﬂæ|ﬂCæÍäÜæÖYwæJ‹?sZ˛=˛ËÄæH§æbÚ>ZõΩ˝§»æ…07æè˙æ‡ÏΩ¡D(æU6_?„z°> SS=>R}>œd	=ÔºOæ‘“ÀºµøH=õ?æ#sSæ¯ç¿æ
+œΩ∏≤c>Ù·õºÇâÃΩÕÛÉæ{vKæƒ_?#¡"æ√˝ÓΩIÂHæˇë?ó
+æ,•9Ω◊>ÓáJ=µÚ¬>H,æï≈ª∫É«=±g˚Ω-6Jæ”‡≥>'K>¸»æ|<Zæ°˚æÁwoæG˚æ‰9‡>ÛóØæ±3j>È…¸>Ñ„»=ˇa°æ”¸©>ÌÃyæ9\™æïÏΩÊÙ>U4ﬁΩë{YæÔûæL'æÉ4æâõ7æ{Î’<'<™æmﬂq?sd‹æûk,ºﬁTíæ˙™æ¯úºΩÄ—º{	œºD.>Å2æ‡∞È<¢ÜΩºCMæu÷=fëæN«”æ—∏ÇæÿàΩ–Üæ5A‰>›‡<?FcËΩè…¸<p´˛<Ì`∫>¢6?Ç*æ…zµæf=[æf¸-æµ´>{Ê`ΩMÁuæéúå=≠S>…«Âæ9ßæ$À•æ~<æî«æ[êΩﬂÏ><C=ÏµÀ=‘úìæXè?Å [æ¶õ>Ê‚=ñ$o>ﬁNAæ'Ÿäæ5}»<ÒV,?◊r><Ω^>«PìæÖr©Ωä…éæ@¶È>Ê–à=–âøæá6Ò=è3[æaË¨æõy>gŸåæo ™æ∂õºj®ﬂ>1à?°≤>Á¢næÑˇ⁄º´⁄˘Ω©¬]æÎ∫åæ:ÂX>&ñæÑ≥2ær≠ä=2YNæÖXåæÚ2&æ.?=2V>√5?)P¬>v∞EæÍ03æh°çæÃh¬Ω[±=y/8æ!
+.>π}πæ[Ω>µÎ¢=å[Éæ(Ìæ6ÙΩËƒÇ<Ìk®<T®ëæ˜önæ∆uªΩ&ÉN?≤∑äº8Œ2>∑SnæΩPÕ>!$ÓΩ≠§æa˘?_À¨æÇ>û=Á}	>Bê¸=ÿJr>4…™æ¨£?æ4âàæQo>z.ΩÈ·=◊YW<øOU=ˇ†“=r∑»>J÷º0w∆>7ÜƒΩm¥ÎΩ	ﬁ…ªµéQæ¬ƒæÍ`≠>∑Îã>u5><>åÆíæºÓ¿æLP√æ?ıÌ=Œv?=ç7>ÅeΩ<VP©æåäØΩIN≤æõ^Ñæ'Ì>h f<OÖ<Bµ3æ˛d?™∆>J£∫æÖ’æÑ2ÉºOπæA:æ¶Û<≤.:>öwæt`ò>˘µîæ~∂æÒö æﬁ:>B÷>ú∆¯ΩˇÆ?ËËæôùÁæT€->(b=™>cæ<o>π„	øï'À>Ø˚üæAiæ„Œ#>z€≠>W≤æ£ëú>=íôæÉŒ?Óä=ó0	?ª8tæZ»>öÅÒΩÌ®ÂΩÇæ‹1æ>Ñ %æëqælœ>á»¯>ã4ëæ¶•ëæúF=üßæ.˜¡æKÊ+?O[P>kÜ0æ9dß<úXæŸP…>”∫WæYuÎΩk;õæ≈·Öæô∆=√Ûæ‰u<ÕÖæÍ >≈‚>è€Ω]3æ[”í>ëüı>≈~<ô˘‘>©¡>]≥ÑæEﬁΩ°„Ω˜vΩû:;Ú–ÂΩÄÏ©=e –º'~iæ#°øÚ∫>ÇÒGægÏäΩœ—Õ<õ◊éæëxúæ§Œo>ÜeΩœ1Ûæñæ›*ˇ=œîë>€œ_>[—?(ç¨>7¬æv{åæeZΩù≤P<[…¬Ω’ÉæåæO∞ÄΩº?€àΩﬂMUΩVàj=§∏=3ü?à:æ$é ?q„ºå¬îΩüæ¿>¨õ?¶XŒª'Â†>à!µ=åéæ~]’Ω√˛`º}æ#ü∆=»ªΩVo∆Ω≈5æÓ∑Næ ¿?˝Ï´æﬁÃæÍ°˛æUG≤æh öæøÂΩÓß¿=Rß€=)&0>ossæ‘ûÉ=âág=ä>î>ÿ90æ#.?>Ÿ2?W√K>Æ“øJ¥ÊΩê?iOóæ8ôŒ=L"Ω=#Ω(ÂEææ’u;*¥”=U˘b>≤ßæøΩy>j‡—Ω*÷/Bsequential.9.biasJºM†ŸΩæEïΩ†/>ÛeØªk[Üæ@ÕÅæÓ˚Oæ¬‰ëΩ\éÄ=_º1æHl>Õô>‘ΩÁ∞"Ω~]Ãº˚5ïΩÓ\ Ω‹vy=¡&§ª‰˝ΩAH˛Ωy =õdÓΩÃv¸=µÇW>∂ãΩaª#ΩË@1>H∏>öÃº˘µ˝<DëàΩsxuæ·D~=õã=$eæòê=Ÿ<†`->bVWæ6‘£=˛Çæl,
+>Îú.>$©ºò°û=e¶¨ΩZ!
+input.1
+
+
+
+
+b
+27
+
+
+/B

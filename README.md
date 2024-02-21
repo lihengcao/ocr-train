@@ -9,10 +9,10 @@ I'm trying to do/learn from scratch. Here's some things that I had trouble with 
 For this dataset, the labels are just ints, which is fine for training, but bad for just visualizing the data. You have to convert them into a human readable format. I had to read the source library code to find what I needed to call the get the human readable names.  
 
 ## Rotated image
-todo
+Need to transpose.
 
-## Model dimensions
-todo
+## Layer dimensions
+Possible for silent errors due to broadcasting. 
 
 
 # Refs
